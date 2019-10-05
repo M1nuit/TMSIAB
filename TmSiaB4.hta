@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<hta:application id="hta" applicationname="TmSiaBv4"
+	border="thin"
+	borderstyle="static"
+	caption="yes" contextmenu="yes"
+	icon="./SERVER/USBWebserver_v8_en/root/images/tmsiab.ico" innerborder="no"
+
+	maximizebutton="no" minimizebutton="yes"
+	navigable="no" scroll="no"
+
+	scrollflat="yes" selection="no"
+	showintaskbar="yes" singleinstance="yes"
+
+	sysmenu="yes" version="4"
+	windowState="normal" >
+	
+		<title>TMSiaB V4 BETA ( TMUNF-Edition )</title>
+		<link rel="stylesheet" type="text/css" href="SERVER/USBWebserver_v8_en/root/css/styles.css" />
+		<script type="text/javascript" src="SERVER/USBWebserver_v8_en/root/js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="SERVER/USBWebserver_v8_en/root/js/sliding_effect.js"></script>
+		<script type="text/javascript" src="SERVER/USBWebserver_v8_en/root/js/pagefade.js"></script>
+	</head>
+
+<script language="VBScript">
+
+    Sub Window_onLoad
+        window.resizeTo 1050,500
+    End Sub 
+	
+	Sub exec(command)
+		Set WshShell = CreateObject("WScript.Shell")
+		Call WshShell.Run("""" & command & """")
+	End Sub
+
+</script>
+
+<!--[if lt IE 7]>
+ <style type="text/css">
+ .dock img { behavior: url(SERVER/USBWebserver_v8_en/root/js/iepngfix.htc) }
+ </style>
+<![endif]-->
+
+
+<SCRIPT TYPE="text/Javascript">
+window.moveTo(20,20);
+
+function IFRAMELOAD () {
+  
+  if (document.getElementById('spIFrame')) {
+
+  // get reference to the iFrame
+  var iFr = document.getElementById('spIFrame');
+
+  // set the application attribute of the iFrame (so it works in HTA)
+  iFr.application = 'Yes';
+
+  // rebuild the iFrame to make sure Application="Yes" is active
+  iFr.outerHTML = iFr.outerHTML;
+											}
+						}
+
+</SCRIPT>	
+	<BODY onload="IFRAMELOAD" ()>
+	<h2><span>TMSiaB V4.0 ( TMUNF-Edition )</span></h2>
+<TABLE frame="void">
+   <TR>
+      <TD WIDTH=220 align="left" valign="top">
+	  
+	  <div id="navigation-block">
+           
+            <ul id="sliding-navigation">
+                <li class="sliding-element"><h3>Navigation</h3></li>
+                <li class="sliding-element"><a href="./SOURCE/HTA/home.htm" target="WINDOW">Home</a></li>
+                <li class="sliding-element"><a href="./SOURCE/HTA/startserver.htm" target="WINDOW">Start Server</a></li>
+                <li class="sliding-element"><a href="./SOURCE/HTA/wizard.htm" target="WINDOW">New Server</a></li>
+                <li class="sliding-element"><a href="./SOURCE/HTA/admin.htm" target="WINDOW">Administration</a></li>
+                <li class="sliding-element"><a href="./SOURCE/HTA/license.htm" target="WINDOW">License</a></li>
+            </ul>
+			<img src="http://update.tmu-xrated.de/tmsiab4/onlineversion.png" onerror="if(!this.check) {this.check = true; this.src = './SERVER/USBWebserver_v8_en/root/images/noonline.png';}" alt ="">
+        </div>
+	  
+	  </TD>
+	  <TD WIDTH=688 align="left" valign="top">
+	  <IFRAME SRC="./SOURCE/HTA/home.htm" name="WINDOW" width="750" height="380" TRUSTED="yes" application="yes" frameborder="no"></IFRAME>
+	  </TD>
+
+  
+  </TR>
+
+</TABLE> 
+	</body>
+</html>
