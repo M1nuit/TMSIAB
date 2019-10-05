@@ -1,0 +1,10 @@
+a:6:{s:7:"oggfile";s:73:"http://remotecp.team-hal.de/music/101-the_chemical_brothers-galvanize.ogg";s:6:"source";s:5:"cache";s:8:"encoding";s:5:"utf-8";s:4:"size";s:7:"4636223";s:7:"summary";s:151:"101-the_chemical_brothers-galvanize.ogg (4527 kB)
+
+Audio (Vorbis 160kb/s): stereo 44kB/s
+Galvanize
+The Chemical Brothers
+Brotherhood
+2008
+1
+Electronic
+";s:6:"vorbis";a:13:{s:6:"serial";i:27720;s:8:"channels";i:2;s:10:"samplerate";i:44100;s:10:"maxbitrate";i:0;s:10:"nombitrate";i:160000;s:10:"minbitrate";i:0;s:7:"bitrate";i:160000;s:6:"vendor";s:29:"Xiph.Org libVorbis I 20070622";s:8:"comments";a:6:{s:5:"TITLE";s:9:"Galvanize";s:6:"ARTIST";s:21:"The Chemical Brothers";s:5:"ALBUM";s:11:"Brotherhood";s:4:"DATE";s:4:"2008";s:11:"TRACKNUMBER";s:1:"1";s:5:"GENRE";s:10:"Electronic";}s:10:"commentlen";i:167;s:10:"commentpos";i:407;s:11:"commentnext";i:4698;s:19:"commentleftSegments";s:16:"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ";}}

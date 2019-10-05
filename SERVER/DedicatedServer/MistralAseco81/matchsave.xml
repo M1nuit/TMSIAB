@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<matchsave_settings>
+	<save_to_db>True</save_to_db>
+	<save_to_file>False</save_to_file>
+	<template_name>html.tpl</template_name>
+	<output_name>race_results.html</output_name>
+	<output_name_last>race_results_last.html</output_name_last>
+	<max_player_count>10</max_player_count>
+	<format_date>d-m-Y</format_date>
+	<format_time>H:i</format_time>
+	<points>10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0</points>
+	<enabled>True</enabled>
+</matchsave_settings>

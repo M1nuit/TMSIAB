@@ -1,0 +1,103 @@
+V8.1 - TMF
+
+BACKUP FILES AND DATABASE FIRST!!!
+
+Whats new:
+----------------------------------------- v8.1 -----------------------------------------------
+- faster rank calculation on trackchange
+- faster wins calculation on trackchange
+- ranks are back in message when player joins
+- rs_rank table changed (auto)
+- rs_rank_<env> tables obsolete now (you can drop them manually)
+- new setting for better average calculation in rasp_settings.php:
+// Remove ONE comment if you run a single environment server (f.e. TMNF)
+//$singleenv = "Stadium";
+//$singleenv = "Island";
+//$singleenv = "Bay";
+//$singleenv = "Coast";
+//$singleenv = "Speed";
+//$singleenv = "Rally";
+//$singleenv = "Alpine";
+- only top5 of a team are used for teamranking (finaly, should have worked before ^^)
+- maybe dublicate joins fixed *hope*
+- overall average is now just based on the 7 environments averages (sum/7)
+----------------------------------------- v8 -------------------------------------------------
+- MAJOR Manialink-Upgrade (Multilayer)
+- Top players now browsable
+- Missing TMF link in settings added
+- Added dbupdate.php to mistralweb (Get TMXIDs into the Database for downloadlinks)
+----------------------------------------- v7 -------------------------------------------------
+- tmnf fixes
+	* jukebox settings (price) now in rasp_settings.php set price to 0 for nations
+- new GBX.remote.php
+- removed immediate execute of calls
+----------------------------------------- v6 -------------------------------------------------
+- tmuf fixes
+	* layout adjusted
+	* admin interface shows again
+	* hud closeable again
+	* support for tmnforever.tm-exchange.com ("/admin add <id> TMF")
+	* rank removed from join-message (no info for unofficial players)
+	* voting not disabled anymore when admin joins (finaly seperated settings in dedicated
+		server for kick/ban and next/restart challenge votes)
+	* gameinfo and db prepared for new "Game" TMF
+- new $trackadmins-array in settings file. trackadmins can /admin add and /admin undo
+- probably more i cant remember right now
+----------------------------------------------------------------------------------------------
+- "/admin add <id> sm" is adding tracks from sharemania.eu
+- workaround for broken callbacks from dedi on heavy serverload
+- workaround for dublicated join events since above workaround ^^
+- Trackevaluation after X (configure in rasp.settings.php) finishs
+  Admins can see results ingame (colored bar bottom right)
+
+- Download links (for tracks added by /admin add)
+	+ update linkinformation for "old" tracks with cyrus' script
+- Ranks in tracklist
+- Idlekick
+- Time to beat
+- Statistic for donations/lottery wins/jukebox fee
+- Jukebox modified:
+	+ up to three tracks per player
+	+ first track 10 coppers (like always)
+	+ 2nd and 3rd track 50 coppers (wasnt possible before)
+	+ add a "played" track again 200 coppers (wasnt possible before)
+- Mistral easteregg (be fair, dont touch it)
+
+----------------- BASIC CONFIG ----------------
+you can replace a running aseco/rasp/mistral environment.
+this script is based on aseco 0.61b or 1.x(?) and rasp 1.2a
+
+if you have aseco/rasp/mistral script running already ...
+REPLACE ALL FILES! (except config.xml if you want)
+
+1. add tables from aseco\db directory
+- newdb	(new installation only)
+- updatedb (update existing aseco/rasp/mistral-environment)
+	* ignore evt. errors about
+		mistral_playerwins
+		teams
+		mistral_billing
+		rs_times
+2. edit config.xml
+3. edit localdatabase.xml
+4. edit includes\rasp_settings.php
+5. after first start you should press "clean&save"
+
+-------- CHANGE FOR YOUR NEEDS ----------------
+- customize function cleanupdb($aseco, $player)
+ + in default, chat will be deleted except last 5000 lines
+
+----------------- optional -------------------------
+- copy mistralweb directory contents to a webserver
+- edit mychat.php and teval.php
+
+mychat.php: livechat of your sever
+teval.php: overview over trackevaluation results (worst tracks ontop)
+
+------------ more interesting stuff ----------------
+- jukebox and buffer are saved -> will survive script crash/restart
+- disconnected players will be kicked automatically so they can rejoin
+- voting is disabled if an admin is online
+- no logfile is written from the script (redirect console output if needed)
+
+be fair and DO NOT TOUCH THE EASTEREGG.

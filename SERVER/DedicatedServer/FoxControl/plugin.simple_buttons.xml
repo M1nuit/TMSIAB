@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<buttons>
+	
+		<!-- EXAMPLE CODES -->
+		
+		<!-- IMPORTANT!!: If you don't use a field (example imagefocus) then left it clean but DON'T CLEAR IT! -->
+		
+		<!-- A button with a url
+		Example:
+		
+		<size>15 2</size>
+		<pos>0 0</pos>
+		<image>http://euve10265.vserver.de/~skp/userbars/foxcontrol_userbar_orange.png</image>
+		<imagefocus>http://euve10265.vserver.de/~skp/userbars/foxcontrol_userbar_blue.png</imagefocus>
+		<linkstyle>url</linkstyle>
+		<link>http://fox-control.de</link> 
+		
+		/example -->
+	
+	
+		<!-- A button with a manialink
+		Example:
+		
+		<size>25 4</size>
+		<pos>0 -10</pos>
+		<image>http://euve10265.vserver.de/~skp/userbars/foxcontrol_userbar_blue.png</image>
+		<imagefocus>http://euve10265.vserver.de/~skp/userbars/foxcontrol_userbar_orange.png</imagefocus>
+		<linkstyle>manialink</linkstyle>
+		<link>skp</link>
+		
+		/example -->
+
+		<size>8 8</size>
+		<pos>56 -33</pos>
+		<image>http://www.fox-control.de/fcimages/foxrace2.png</image>
+		<imagefocus></imagefocus>
+		<linkstyle>url</linkstyle>
+		<link>http://www.fox-control.de</link>
+		
+		
+		
+		
+		
+		
+		<size>10 2</size>
+		<pos>52 41</pos>
+		<image>http://img214.imageshack.us/img214/7261/foxcontrol.png</image>
+		<imagefocus>http://img16.imageshack.us/img16/1875/foxcontrol2.png</imagefocus>
+		<linkstyle>url</linkstyle> <!-- You can use 'url' OR 'manialink' (without '') -->
+		<link>http://fox-control.de</link>
+
+			
+	</buttons>

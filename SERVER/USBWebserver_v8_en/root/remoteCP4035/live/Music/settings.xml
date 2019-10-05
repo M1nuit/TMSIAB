@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<!-- enable (1) or disable (0) use global music over forceMusic method -->
+	<!-- this disables the music player panel and plays the same track for everybody -->
+	<!-- forcemusic automatically enables autoopen and autochangetrack -->
+	<forcemusic>0</forcemusic>
+
+	<!-- enable (1) or disable (0) opening of the music panel, as soon as the player joins the server -->
+	<!-- option only available if forcemusic is disabled -->
+	<autoopen>1</autoopen>
+	<!-- enable (1) or disable (0) automatic switching to the next track on a new challenge -->
+	<!-- option only available if forcemusic is disabled -->
+	<autochangetrack>1</autochangetrack>
+
+	<!-- define the ogg/mux files to load -->
+	<data>
+		<!--<item>
+			<name>Time</name>
+			<file>http://remotecp.team-hal.de/music/time.ogg</file>
+		</item>
+		<item>
+			<name>Peaking</name>
+			<file>http://remotecp.team-hal.de/music/peaking.ogg</file>
+		</item>-->
+		<item>
+			<name>4</name>
+			<file>http://remotecp.team-hal.de/music/B-Complex_-_You_Make_Me_Feel_Like_Dancing.ogg</file>
+		</item>
+		<item>
+			<name>5</name>
+			<file>http://remotecp.team-hal.de/music/B-Complex_-_Salam_Parky_Horcica.ogg</file>
+		</item>
+		<item>
+			<name>1</name>
+			<file>http://remotecp.team-hal.de/music/28_WHO_S_YOUR_DADDY_.ogg</file>
+		</item>
+		<item>
+			<name>2</name>
+			<file>http://remotecp.team-hal.de/music/101-the_chemical_brothers-galvanize.ogg</file>
+		</item>
+		<item>
+			<name>3</name>
+			<file>http://remotecp.team-hal.de/music/112-the_chemical_brothers-midnight_madness.ogg</file>
+		</item>
+	</data>
+</settings>

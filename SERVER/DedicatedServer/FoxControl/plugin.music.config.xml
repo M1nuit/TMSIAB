@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+//* plugin.music.config.xml - Admin Chat Commands
+//* Version:   0.8.0
+//* Coded by:  matrix142
+//* Copyright: FoxRace, http://www.fox-control.de
+-->
+<music>
+  <config>
+    <url>http://dl.dropbox.com/u/20127956/</url> <!-- Set here the URL to your Webspace where your music files are. Begin with http:// and end with / -->
+  </config>
+  <songs>
+    <song>Madcon%20-%20Freaky%20Like%20Me%20%28official%20music%20video%29%20Video%20-%20linainverse1%20-%20MyVideo.wav</song><name>Freaky like me</name>
+	<song>Katy%20Perry%20-%20Firework%20%28Official%20Music%20Video%29%20%5BFull%20HD%20%281080p%29%5D.wav</song><name>Firework</name>
+	<song>Linkin%20Park%20%20The%20Catalyst%20-%20Official.wav</song><name>The Catalyst</name>
+	<song>Piranha.ogg</song><name>Piranaha</name>
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+	<!-- <song>File.ogg</song><name>Songname</name> -->
+  </songs>
+</music>

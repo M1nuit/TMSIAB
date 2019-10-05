@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rasp>
+	<messages>
+		<new_rank>{#server}>{#record} You claimed the {#highlite}{2}{#record}. with a time of {#highlite}{1}{#record}!</new_rank>
+		<rank>{#server}>{#record} Your server rank is {#highlite}{1}{#record}/{#highlite}{2}{#record} Average : {#highlite}{3}</rank>
+		<rank_none>{#server}>{#record} You must have {1} records on this server before recieving a rank</rank_none>
+	  	<pb>{#server}> {#error} Personal Best: {#highlite}{1} {#error}({2}.) {#highlite} from {3}</pb>
+		<pbOLD>{#server}>{#error} Personal Best: {#highlite}{1}{#error}({#highlite}{2}{#error}) Average: ({#highlite}{3}{#error})</pbOLD>
+		<pb_none>{#server}>{#error} You don't have a record on this map yet...</pb_none>
+		<top>{#server}>{#interact} The top ranked player is: {#highlite}{1}{#interact}</top>
+		<jukebox>{#server}> {#highlite}{1}{#emotic} ({2}) was added to the jukebox by {#highlite}{3}</jukebox>
+	</messages>
+</rasp>

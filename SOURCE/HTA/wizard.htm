@@ -1,0 +1,775 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="x-ua-compatible" content="ie=9"> 
+<title>Smart Wizard for TMSiaB</title>
+<link rel="stylesheet" type="text/css" href="../../SERVER/USBWebserver_v8_en/root/css/smart_wizard.css" />
+<style type="text/css">.hide{ display:none; }</style> 
+<script Language = VBScript>
+
+Sub IPGETTING
+strComputer = "localhost"
+Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+Set colItems = objWMIService.ExecQuery("Select * From Win32_NetworkAdapterConfiguration Where IPEnabled = True")
+For Each objItem in colItems
+For Each strAddress in objItem.IPAddress
+strHtml = strHtml & "IP Address: "
+strHtml = strHtml & strAddress & Chr(13)
+Next
+Next
+MsgBox strHtml,0,"IP Address Information"
+End Sub
+
+Sub CREATESERVER
+
+Dim TMSIABID
+Dim DEDICATEDTYPE
+Dim DEDICATEDPLUGIN
+Dim DEDICATEDNEIGHBOR
+Dim FREEZONE
+Dim COPPER 
+Dim LOCALIP
+Dim YOURTMPORT
+Dim DEDICATEDLOGIN
+Dim DEDICATEDPASSWORD
+Dim TMLOGIN
+Dim COMMUNITYCODE
+Dim NATIONALITY
+Dim DEDICATEDNAME
+Dim SUPERADMINPW
+Dim SERVERPORT
+Dim PTPPORT
+Dim XMLRPCPORT
+	
+TMSIABID 			= (document.TMsiaBfrmExample.TMSIABID.value)
+DEDICATEDTYPE 		= (document.TMsiaBfrmExample.DEDICATEDTYPE.value)
+DEDICATEDPLUGIN		= (document.TMsiaBfrmExample.DEDICATEDPLUGIN.value)
+DEDICATEDNEIGHBOR 	= (document.TMsiaBfrmExample.DEDICATEDNEIGHBOR.value)
+FREEZONE 			= (document.TMsiaBfrmExample.FREEZONE.value)
+COPPER				= (document.TMsiaBfrmExample.COPPER.value)
+PLAYERKEY			= (document.TMsiaBfrmExample.PLAYERKEY.value)
+LOCALIP 			= (document.TMsiaBfrmExample.LOCALIP.value)
+YOURTMPORT 			= (document.TMsiaBfrmExample.YOURTMPORT.value)
+DEDICATEDLOGIN 		= (document.TMsiaBfrmExample.DEDICATEDLOGIN.value)
+DEDICATEDPASSWORD 	= (document.TMsiaBfrmExample.DEDICATEDPASSWORD.value)
+TMLOGIN				= (document.TMsiaBfrmExample.TMLOGIN.value)
+COMMUNITYCODE		= (document.TMsiaBfrmExample.COMMUNITYCODE.value)
+NATIONALITY			= (document.TMsiaBfrmExample.NATIONALITY.value)
+DEDICATEDNAME		= (document.TMsiaBfrmExample.DEDICATEDNAME.value)
+SUPERADMINPW		= (document.TMsiaBfrmExample.SUPERADMINPW.value)
+SERVERPORT			= (document.TMsiaBfrmExample.SERVERPORT.value)
+PTPPORT				= (document.TMsiaBfrmExample.PTPPORT.value)
+XMLRPCPORT			= (document.TMsiaBfrmExample.XMLRPCPORT.value)
+
+Set xml = CreateObject("msxml2.domdocument")
+xml.Load "../CONFIGURATION/config.xml"
+
+Set ttmsiabid = xml.SelectSingleNode("//dedicated/dedicatedvalues/ttmsiabid")
+ttmsiabid.Text = TMSIABID
+
+Set dtype = xml.SelectSingleNode("//dedicated/dedicatedvalues/dtype")
+dtype.Text = DEDICATEDTYPE
+
+Set dplugin = xml.SelectSingleNode("//dedicated/dedicatedvalues/dplugin")
+dplugin.Text = DEDICATEDPLUGIN
+Set dneighborhood = xml.SelectSingleNode("//dedicated/dedicatedvalues/dneighborhood")
+dneighborhood.Text = DEDICATEDNEIGHBOR
+Set dfreezone = xml.SelectSingleNode("//dedicated/dedicatedvalues/dfreezone")
+dfreezone.Text = FREEZONE
+Set dcopper = xml.SelectSingleNode("//dedicated/dedicatedvalues/dcopper")
+dcopper.Text = COPPER
+Set dplayerkey = xml.SelectSingleNode("//dedicated/dedicatedvalues/dplayerkey")
+dplayerkey.Text = PLAYERKEY
+Set dlocalip = xml.SelectSingleNode("//dedicated/dedicatedvalues/dlocalip")
+dlocalip.Text = LOCALIP
+Set utmport = xml.SelectSingleNode("//dedicated/dedicatedvalues/utmport")
+utmport.Text = YOURTMPORT
+Set dlogin = xml.SelectSingleNode("//dedicated/dedicatedvalues/dlogin")
+dlogin.Text = DEDICATEDLOGIN
+Set dpassword = xml.SelectSingleNode("//dedicated/dedicatedvalues/dpassword")
+dpassword.Text = DEDICATEDPASSWORD
+Set dtmlogin = xml.SelectSingleNode("//dedicated/dedicatedvalues/dtmlogin")
+dtmlogin.Text = TMLOGIN
+Set dcommunitycode = xml.SelectSingleNode("//dedicated/dedicatedvalues/dcommunitycode")
+dcommunitycode.Text = COMMUNITYCODE
+Set dnationality = xml.SelectSingleNode("//dedicated/dedicatedvalues/dnationality")
+dnationality.Text = NATIONALITY
+Set ddadicatedname = xml.SelectSingleNode("//dedicated/dedicatedvalues/ddadicatedname")
+ddadicatedname.Text = DEDICATEDNAME
+Set dsuperdaminpw = xml.SelectSingleNode("//dedicated/dedicatedvalues/dsuperdaminpw")
+dsuperdaminpw.Text = SUPERADMINPW
+Set dserverport = xml.SelectSingleNode("//dedicated/dedicatedvalues/dserverport")
+dserverport.Text = SERVERPORT
+Set dptpport = xml.SelectSingleNode("//dedicated/dedicatedvalues/dptpport")
+dptpport.Text = PTPPORT
+Set dmlrpcport = xml.SelectSingleNode("//dedicated/dedicatedvalues/dmlrpcport")
+dmlrpcport.Text = XMLRPCPORT
+
+xml.Save "../CONFIGURATION/config.xml"
+
+Set TMSIABID = Nothing	
+Set DEDICATEDTYPE = Nothing
+Set DEDICATEDPLUGIN = Nothing
+Set DEDICATEDNEIGHBOR = Nothing
+Set FREEZONE = Nothing
+Set COPPER = Nothing
+Set PLAYERKEY = Nothing
+Set LOCALIP = Nothing
+Set YOURTMPORT = Nothing
+Set DEDICATEDLOGIN = Nothing
+Set DEDICATEDPASSWORD = Nothing
+Set TMLOGIN = Nothing
+Set COMMUNITYCODE = Nothing
+Set NATIONALITY = Nothing
+Set DEDICATEDNAME = Nothing
+Set SUPERADMINPW = Nothing
+Set SERVERPORT = Nothing
+Set PTPPORT = Nothing
+Set XMLRPCPORT = Nothing
+
+dim objShell
+Set objShell = CreateObject("Shell.Application")
+objShell.ShellExecute ".\SOURCE\CMD\csf.cmd", "", "", "open", 1
+set objShell = nothing
+
+End Sub
+</script>
+
+
+</head>
+<body bgcolor=#1d1d1d>
+<FORM NAME="TMsiaBfrmExample" class="someEventTIPP">
+<!-- Smart Wizard -->
+  		<div id="wizard" class="swMain">
+  			<ul>
+  				<li><a href="#step-1">
+                <label class="stepNumber">1</label>
+                <span class="stepDesc">
+                   Type/Plugin<br />
+                   <small>and Neighborhood</small>
+                </span>
+            </a></li>
+  				<li><a href="#step-2">
+                <label class="stepNumber">2</label>
+                <span class="stepDesc">
+                   Server Account<br />
+                   <small>and creation</small>
+                </span>
+            </a></li>
+  				<li><a href="#step-3">
+                <label class="stepNumber">3</label>
+                <span class="stepDesc">
+                   Owners Data<br />
+                   <small>and Servername</small>
+                </span>                   
+             </a></li>
+  				<li><a href="#step-4">
+                <label class="stepNumber">4</label>
+                <span class="stepDesc">
+                   Portselection<br />
+                   <small>and finish</small>
+                </span>                   
+            </a></li>
+  			</ul>
+			
+			
+			
+  			<div id="step-1">	
+            <h2 class="StepTitle">Step 1 - Type of Server / Plugin</h2>
+            <ul type="disk">
+            </ul>
+            <p>
+			
+			<ul>
+				<div class="hide" id="hide5">
+			
+			<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b>TMSiaB-ID: </b><br>
+						</td>
+												<td>
+					
+						<select style="width: 275px" name="TMSIABID" id="TMSIABID" title="Which TMSiaB Server?">
+						<option selected="selected" value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+					</div>
+						</td>
+						</td>
+						</tr>
+						</table>
+			</div>	
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						
+						<b>Type of Server: </b><br>
+						</td>
+
+						<td>
+						<select style="width: 275px" name="DEDICATEDTYPE" id="DEDICATEDTYPE" title="TMUF or TMNF?" >
+						<option selected="selected" value="TMUF">Trackmania United Forever ( 2011-02-11 )</option>
+						<option value="TMNF">Trackmania Nations Forever ( 2011-02-11 )</option>
+						</select>
+						<br>
+						</td>
+						</td>
+						</tr>
+						</table>
+
+						<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b>Plugin:</b><br>
+						</td>
+
+						<td>
+						<select style="width: 275px" name="DEDICATEDPLUGIN" id="DEDICATEDPLUGIN" size="1" title="Which one should display the records?">
+						<option selected="selected" value="XASECO">XAseco v1.14</option>
+						<option value="LIVE">remoteCP[LIVE] v4.0.3.5</option>
+						<option value="FAST3">FAST3 v3.2.2m</option>
+						<option value="FOXCONTROL">FOX Control beta0.9.2</option>
+						<option value="MANIALIVE">ManiaLive r260</option>
+						<option value="MASECO">Mistral Aseco v8.1</option>
+						
+						</td>
+						</td>
+						</tr>
+						</table>
+				<div class="input select">
+						<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b>Neighborhood: </b><br>
+						</td>
+												<td>
+					
+						<select style="width: 275px" name="DEDICATEDNEIGHBOR" id="DEDICATEDNEIGHBOR" title="Connected to the Internet or playing at a LAN-Party?">
+						<option selected="selected" value="INTERNET">Internet</option>
+						<option value="LAN">LAN</option>
+						
+					</div>
+						</td>
+						</td>
+						</tr>
+						</table>
+			</div>
+					</ul>
+            </p>
+			
+			<ul>
+					
+				
+				<div class="hide" id="hide2">
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<a href="http://www.tm-forum.com/viewtopic.php?f=24&t=27325" target="_blank">FreeZone:</a><br>
+						</td>
+
+						<td>
+						<select style="width: 275px" name="FREEZONE" id="FREEZONE" size="1" title="Would you like to hide the server?">
+						<option selected="selected" value="VISIBLE">Visible in Serverlist</option>
+						<option value="HIDE">Hide in Serverlist</option>
+						</td>
+						</td>
+						</tr>
+						</table>
+				</div>	
+
+				<div class="visible" id="hide3">
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b>Copperenable:</b><br>
+						</td>
+
+						<td>
+						<select style="width: 275px" name="COPPER" id="COPPER" size="1" title="Don't forget to send a few Coppers to your Dedicatedlogin!">
+						<option selected="selected" value="COPPERNO">Without Coppertransfer</option>
+						<option value="COPPERYES">With Coppertransfer</option>
+						</td>
+						</td>
+						</tr>
+						</table>
+						<div class="hide" id="hide4">
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b>Playerkey:</b><br>
+						</td>
+
+						<td>
+						<input type="text" class="PLAYERKEY" id="PLAYERKEY" size="40" value="YYY" title="You've to enter the last 3 chars of your Playerkey. It looks like XXXX-XXXX-XXXX-YYY" />
+		
+						</td>
+						</td>
+						</tr>
+						</table>
+				</div>
+				</div>
+				
+				
+				
+				
+
+
+				<div class="hide" id="hide1">
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						
+						<a href="javascript:IPGETTING()">Your IP Address:</a><br>
+						</td>
+
+						<td>
+						<input type="text" class="LOCALIP" id="LOCALIP" size="40" value="" title="If you would like to be the Admin at the LAN-Party" />
+						<br>
+						</td>
+						</td>
+						</tr>
+						</table>
+
+						<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b>Your TM-Port:</b><br>
+						</td>
+
+						<td>
+						<input type="text" class="YOURTMPORT" id="YOURTMPORT" size="40" value="2350" title="Your standard-TM-Port is 2350" />
+		
+						</td>
+						</td>
+						</tr>
+						</table>
+						
+					</div>
+					</ul>
+            </p>
+			</ul>
+                  			
+        </div>
+  			<div id="step-2">
+            <h2 class="StepTitle">Step 2 - Serveraccountdata</h2>
+			<ul type="disk">
+            </ul>
+			
+			<p>
+			
+			<ul>
+			
+            <table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						
+						<td style="width:180px">
+						<b>Serveraccount Login:</b><br>
+						</td>
+
+						<td>
+						<input type="text" class="DEDICATEDLOGIN" id="DEDICATEDLOGIN" title="Enter your previously created Serverlogin" size="40" />
+						</td>
+						</td>
+						</tr>
+						<tr>
+						<td style="width:180px">
+						<b>Serveraccount Password:</b><br>
+						</td>
+
+						<td>
+						<input type="text" title="Enter your previously created Serverpassword" class="DEDICATEDPASSWORD" id="DEDICATEDPASSWORD" size="40" />
+						</td>
+						</td>
+						</tr>
+						
+						<tr>
+						<td style="width:140px">
+						<a href="http://official.trackmania.com/tmf-communitycode/" title="Klick here and enter your Serveraccount / Login to get your code..." target="_blank">Communitycode:</a><br>
+						</td>
+						
+						<td>
+					<input type="text" class="COMMUNITYCODE" id="COMMUNITYCODE" title="Dont know your Communitycode? Move your Mouse to the left and klick :O)" size="40" />
+						<br>
+					
+						</td>
+						
+						</tr>
+					</table>
+					<br>
+					<table>
+					<td>
+					<p><b>TMUF:</b> To create a Serveraccount for TMUF, you have to login to the <a href="https://player.trackmania.com/"  target="_blank">Playerpage</a> with your Playername and Password.</p>
+					
+					
+					
+					<p><b>TMNF:</b> For a TMNF Dedicated Serveraccount, make an alternative Playeraccount from the <a href="tmtp://">game itself</a> and use
+					that alternative Playeraccount as a Serveraccount.</p>
+					</td>
+					</table>
+					
+					
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+
+</table>
+       
+        </div>                      
+  			<div id="step-3">
+            <h2 class="StepTitle">Step 3 - Owners Data</h2>	
+            
+			<ul type="disk">
+            </ul>
+            <p>
+			
+			<ul>
+					
+				<div class="input select">
+						<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						
+						
+						<tr>
+						<td style="width:140px">
+						<b>TM-Login: </b><br>
+						</td>
+						
+						<td>
+					<input type="text"title="Your have to enter your Trackmanialogin! NOT the Ingamename with the funny colors!!!" class="TMLOGIN" id="TMLOGIN" size="40" />
+						<br>
+					</div>
+						</td>
+						
+						</tr>
+						
+
+					</div>
+
+						
+						
+						<tr>
+						<td style="width:140px">
+						<a href="http://en.wikipedia.org/wiki/List_of_IOC_country_codes" title="In accordance with the list of IOC country codes" target="_blank">Nationality:</a><br>
+						</td>
+						
+						<td>
+					<select style="width: 275px" name="NATIONALITY" id="NATIONALITY" size="1" title="Where do you live?">
+						<option value="ALG">Algeria</option>
+						<option value="ANG">Angola</option>
+						<option value="ARG">Argentina</option>
+						<option value="AUS">Australia</option>
+						<option value="AUT">Austria</option>
+						<option value="BAN">Bangladesh</option>
+						<option value="BEL">Belgium</option>
+						<option value="BIH">Bosnia&amp;Herzegovina</option>
+						<option value="BLR">Belarus</option>
+						<option value="BOL">Bolivia</option>
+						<option value="BRA">Brazil</option>
+						<option value="BRN">Bahrain</option>
+						<option value="BUL">Bulgaria</option>
+						<option value="CAN">Canada</option>
+						<option value="CGO">Congo</option>
+						<option value="CHI">Chile</option>
+						<option value="CHN">China</option>
+						<option value="CIV">Ivory Coast</option>
+						<option value="CMR">Cameroon</option>
+						<option value="COL">Colombia</option>
+						<option value="CRO">Croatia</option>
+						<option value="CYP">Cyprus</option>
+						<option value="CZE">Czech Republic</option>
+						<option value="DEN">Denmark</option>
+						<option value="ECU">Ecuador</option>
+						<option value="EGY">Egypt</option>
+						<option value="ESP">Spain</option>
+						<option value="EST">Estonia</option>
+						<option value="FIN">Finland</option>
+						<option value="FRA">France</option>
+						<option value="GBR">United Kingdom</option>
+						<option selected="selected" value="GER">Germany</option>
+						<option value="GRE">Greece</option>
+						<option value="GUA">Guatemala</option>
+						<option value="HUN">Hungary</option>
+						<option value="INA">Indonesia</option>
+						<option value="IND">India</option>
+						<option value="IRI">Iran</option>
+						<option value="IRL">Ireland</option>
+						<option value="IRQ">Iraq</option>
+						<option value="ISR">Israel</option>
+						<option value="ITA">Italy</option>
+						<option value="JPN">Japan</option>
+						<option value="KAZ">Kazakhstan</option>
+						<option value="KOR">Korea</option>
+						<option value="KSA">Saudi Arabia</option>
+						<option value="KUW">Kuwait</option>
+						<option value="LAO">Laos</option>
+						<option value="LAT">Latvia</option>
+						<option value="LBA">Libya</option>
+						<option value="LIB">Lebanon</option>
+						<option value="LTU">Lithuania</option>
+						<option value="LUX">Luxembourg</option>
+						<option value="MAR">Morocco</option>
+						<option value="MAS">Malaysia</option>
+						<option value="MEX">Mexico</option>
+						<option value="MGL">Mongolia</option>
+						<option value="MKD">Macedonia</option>
+						<option value="NED">Netherlands</option>
+						<option value="NGR">Nigeria</option>
+						<option value="NOR">Norway</option>
+						<option value="NZL">New Zealand</option>
+						<option value="OMA">Oman</option>
+						<option value="PAK">Pakistan</option>
+						<option value="PAN">Panama</option>
+						<option value="PER">Peru</option>
+						<option value="PHI">Philippines</option>
+						<option value="POL">Poland</option>
+						<option value="POR">Portugal</option>
+						<option value="QAT">Qatar</option>
+						<option value="ROM">Romania</option>
+						<option value="RSA">South Africa</option>
+						<option value="RUS">Russia</option>
+						<option value="SEN">Senegal</option>
+						<option value="SIN">Singapore</option>
+						<option value="SLO">Slovenia</option>
+						<option value="SRB">Serbia</option>
+						<option value="SUI">Switzerland</option>
+						<option value="SVK">Slovakia</option>
+						<option value="SWE">Sweden</option>
+						<option value="SYR">Syria</option>
+						<option value="THA">Thailand</option>
+						<option value="TUN">Tunisia</option>
+						<option value="TUR">Turkey</option>
+						<option value="UAE">United Arab Emirates</option>
+						<option value="UKR">Ukraine</option>
+						<option value="URU">Uruguay</option>
+						<option value="USA">United States of America</option>
+						<option value="UZB">Uzbekistan</option>
+						<option value="VEN">Venezuela</option>
+						<option value="VIE">Vietnam</option>
+						<option value="">None of all</option>
+						
+						<br>
+					</div>
+						</td>
+						
+						</tr><tr><td style="width:140px"><span style="color:#1d1d1d">.</span> </td></tr>
+						<tr>
+						<td style="width:140px">
+						<b>Servername: </b><br>
+						</td>
+						
+						<td>
+					<input type="text" title="Please choose a name WITHOUT special chars and spaces! ( You' re able to change the name later! )" class="DEDICATEDNAME" id="DEDICATEDNAME" size="40" />
+						<br>
+					</div>
+						</td>
+						
+						</tr>
+						
+						
+						<tr>
+						<td style="width:140px">
+						<b>SuperAdminPW: </b><br>
+						</td>
+						
+						<td>
+					<input type="text" class="SUPERADMINPW" id="SUPERADMINPW" size="40" />
+						<br>
+					</div>
+						</td>
+						
+						</tr>
+						
+						
+						</table>
+			</div>
+					</ul>
+            </p>
+			
+			
+            </p>
+			</ul>
+
+
+
+			
+        </div>
+  			<div id="step-4">
+            <h2 class="StepTitle">Step 4 - Portselection</h2>	
+            			<ul>
+					
+					<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						
+						<b>Serverport: </b><br>
+						</td>
+
+						<td>
+						<select name="SERVERPORT" id="SERVERPORT">
+						<option value="2351" selected="selected" >2351</option>
+						<option value="2352">2352</option>
+						<option value="2353">2353</option>
+						<option value="2354">2354</option>
+						<option value="2355">2355</option>
+						<option value="2356">2356</option>
+						<option value="2357">2357</option>
+						<option value="2358">2358</option>
+						<option value="2359">2359</option>
+						</select><br>
+						
+						
+						</td>
+						</td>
+						</tr>
+						</table>
+
+						<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b><a href="http://en.tm-wiki.org/wiki/P2P" target="_blank">P2P-Port:</a></b><br>
+						</td>
+
+						<td>
+						<select name="PTPPORT" id="PTPPORT">
+						<option value="3451" selected="selected" >3451</option>
+						<option value="3452">3452</option>
+						<option value="3453">3453</option>
+						<option value="3454">3454</option>
+						<option value="3455">3455</option>
+						<option value="3456">3456</option>
+						<option value="3457">3457</option>
+						<option value="3458">3458</option>
+						<option value="3459">3459</option>
+						</select><br>
+						
+						
+						</td>
+						</td>
+						</tr>
+						</table>
+						<table class="layout-grid2" cellspacing="0" cellpadding="0">
+						<tr>
+						<td style="width:140px">
+						<b><a href="http://en.wikipedia.org/wiki/XML-RPC" target="_blank">XMLRPC-Port:</a></b><br>
+						</td>
+
+						<td>
+						<select name="XMLRPCPORT" id="XMLRPCPORT">
+						<option value="5001" selected="selected" >5001</option>
+						<option value="5002">5002</option>
+						<option value="5003">5003</option>
+						<option value="5004">5004</option>
+						<option value="5005">5005</option>
+						<option value="5006">5006</option>
+						<option value="5007">5007</option>
+						<option value="5008">5008</option>
+						<option value="5009">5009</option><br>
+						</td>
+						</td>
+						</tr>
+						</table>
+			
+					</ul>
+
+					<ul>
+					<p>If you're connected to the WWW via a Router: Don't forget to <a href="http://en.wikipedia.org/wiki/Port_forwarding" target="_blank">redirect</a> Serverport ( TCP & UDP ) 
+					and P2P-Port ( onyl TCP ) to <a href="javascript:IPGETTING()">THIS machine</a>! 
+					( Have a look at your Router-Manual! )<br><br>
+					
+					If you don't redirect the ports, nobody will able to connect to your Dedicated Server!<br>
+					Consequently, everybody will get a error like: "Connection failed or disconnected from Server (10061)".</p>
+					</ul>
+              			
+        </div>
+  		</div>
+<!-- End SmartWizard Content -->  
+</FORM>		
+		<script type="text/javascript" src="../../SERVER//USBWebserver_v8_en/root/js/jquery-1.6.2.js"></script>
+		<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.tipTip.js"></script>
+		<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.smartWizard-2.0.js"></script>
+		<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/pagefade.js"></script>
+		<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.jkey-1.2.js"></script>
+		
+
+				
+<script type="text/javascript">
+
+
+	
+    $(document).ready(function(){
+    	// Smart Wizard 	
+  		$('#wizard').smartWizard({onFinish:onFinishCallback});
+	$(document).jkey('shift+x+r',function(){
+			$("#hide5").slideDown("fast"); });
+		
+		
+$(document).ready(function(){
+		$("#DEDICATEDNEIGHBOR").change(function(){
+
+			if ($(this).val() == "LAN" ) {
+
+				$("#hide1").slideDown("fast"); //Slide Down Effect
+
+			} else {
+
+				$("#hide1").slideUp("fast");	//Slide Up Effect
+
+			}
+		});
+
+		$("#DEDICATEDTYPE").change(function(){
+
+			if ($(this).val() == "TMNF" ) {
+
+				$("#hide2").slideDown("fast"); //Slide Down Effect
+
+			} else {
+
+				$("#hide2").slideUp("fast");	//Slide Up Effect
+
+			}
+		});
+
+		$("#DEDICATEDTYPE").change(function(){
+
+			if ($(this).val() == "TMNF" ) {
+
+				$("#hide3").slideUp("fast"); //Slide Down Effect
+
+			} else {
+
+				$("#hide3").slideDown("fast");	//Slide Up Effect
+
+			}
+		});
+		
+		$("#COPPER").change(function(){
+
+			if ($(this).val() == "COPPERYES" ) {
+
+				$("#hide4").slideDown("fast"); //Slide Down Effect
+
+			} else {
+
+				$("#hide4").slideUp("fast");	//Slide Up Effect
+
+			}
+		});
+		
+			
+	});
+		
+		
+      function onFinishCallback(){
+        CREATESERVER(); 
+        //building config.xml and create serverfiles;
+      }     
+		});
+</script>
+
+	<script type="text/javascript">		
+$(function(){
+	$(".someEventTIPP").tipTip({maxWidth: "auto", edgeOffset: 10});
+	});	
+</script>
+	
+</body>
+</html>

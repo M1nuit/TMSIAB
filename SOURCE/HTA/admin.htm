@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=9">
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/jquery-ui-1.8.16.custom.css">
+	<script src="../../SERVER/USBWebserver_v8_en/root/js/jquery-1.6.2.js"></script>
+	<script src="../../SERVER/USBWebserver_v8_en/root/js/jquery.ui.core.js"></script>
+	<script src="../../SERVER/USBWebserver_v8_en/root/js/jquery.ui.widget.js"></script>
+	<script src="../../SERVER/USBWebserver_v8_en/root/js/jquery.ui.accordion.js"></script>
+	<script src="../../SERVER/USBWebserver_v8_en/root/js/jquery.tipTip.js"></script>
+	<script src="../../SERVER/USBWebserver_v8_en/root/js/jquery.jgrowl.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.jkey-1.2.js"></script>
+	
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/demos.css">
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/tipTip.css">
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/jquery.jgrowl.css">
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/pagefade.js"></script>
+	
+	<script>
+	$(function() {
+		$( "#accordion" ).accordion({
+		});
+	});
+	</script>
+	
+		<script>
+	$(function(){
+	$(".fg-button").tipTip({maxWidth: "auto", edgeOffset: 10, defaultPosition: "right"});
+	});
+	</script>
+	
+
+	<script language="javascript" type="text/javascript">
+function runImCmd(cmd)
+{
+  var wshShell = new ActiveXObject("WScript.shell");
+  wshShell.run(cmd, 1);
+}
+</script>
+
+<script language="javascript" type="text/javascript">
+function runCmd(cmd)
+{
+	var shell = new ActiveXObject("WScript.shell");
+	var x=window.confirm("Proceed?");
+	if (x)
+	shell.run(cmd, 1);
+	else
+	{ return true; };
+}
+
+$(document).ready(function(){
+	$(document).jkey('shift+x+r',function(){
+	$("#hide1").slideDown("fast");
+	$("#hide2").slideDown("fast");
+	$("#hide3").slideDown("fast");
+	$("#hide4").slideDown("fast");
+	$("#hide5").slideDown("fast");});})
+</script>
+
+<style type="text/css">.hide{ display:none; }</style> 
+
+</head>
+<body bgcolor=#1d1d1d>
+
+<div class="demo">
+
+<div id="accordion">
+	<h3><a href="#">Administration</a></h3>
+
+	<div>
+		<input class="fg-button ui-state-default ui-corner-all" type="button" style="height: 25px; width: 119px" value="Localhost" title="Your entry to remoteCP ( and much more )" target="_blank" onClick="parent.location='http://localhost:8080/'"><br><br>
+		
+		<input class="fg-button ui-state-default ui-corner-all" type="button" style="height: 25px; width: 119px" value="phpMyAdmin" title="Your entry to phpMyAdmin" target="_blank" onClick="parent.location='http://localhost:8080/phpmyadmin/'"><br><br>
+		
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Open Trackdir', { life: 10000 });runImCmd('.\\SOURCE\\CMD\\opentrackdir.cmd')" style="height: 25px; width: 119px" title="This will open the Trackdirectory<br>of your Dedicated Server">TMUNF Trackdir</button><br><br>
+		
+		</div>
+	<h3><a href="#">Configuration</a></h3>
+	<div>
+		<p>
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runImCmd('notepad.exe .\\SOURCE\\CONFIGURATION\\config.xml')" style="height: 25px; width: 119px" title="You're able to edit the central configurationfile of TMSiaB.<br>If you change something, you'll have to click +Reconfigure Files+<br>to reconfigure the whole Dedicated Server">Edit config.xml</button><br><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SOURCE\\CMD\\csf.cmd')" style="height: 25px; width: 119px" title="This will reconfigure ALL<br>Dedicated Server related files!">Reconfigure Files</button><br><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SOURCE\\CMD\\settozero.cmd')" style="height: 25px; width: 119px" title="BE CAREFUL!<br>This will delete ALL<br>files created since installation of TMSiaB!">ZERO State</button><br><br>
+		
+		</p>
+	</div>
+
+	<h3><a href="#">Plugin selction</a></h3>
+	<div>
+		
+<table border="0">
+  <tr>
+    <th><div class="hide" id="hide1">Server 01</div></th>
+    <th><div class="hide" id="hide2">Server 02</div></th>
+    <th><div class="hide" id="hide3">Server 03</div></th>
+  </tr>
+  <tr>
+    <td>
+	<p>
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\USBWebserver_v8_en\\root\\remoteCP4035\\_Live01Start.cmd')" style="height: 25px; width: 119px" title="This will start remoteCP[LIVE]">Start rCP[LIVE]</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\MistralAseco81\\_MistralAseco01Start.cmd')" style="height: 25px; width: 119px" title="This will start Mistral Aseco">Start Mistral Aseco</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\XAseco114\\_XAseco01Start.cmd')" style="height: 25px; width: 119px" title="This will start XAseco">Start XAseco</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\FAST322\\_FAST01Start.cmd')" style="height: 25px; width: 119px" title="This will start FAST3">Start FAST3</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\FoxControl\\_FoxControl01Start.cmd')" style="height: 25px; width: 119px" title="This will start FOX Control">Start FOX Control</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\ManiaLive\\_ManiaLive01Start.cmd')" style="height: 25px; width: 119px" title="This will start ManiaLive">Start ManiaLive</button><br>
+		</p></td>
+		
+    <td><div class="hide" id="hide4"><p>
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\USBWebserver_v8_en\\root\\remoteCP4035\\_Live02Start.cmd')" style="height: 25px; width: 119px" title="This will start remoteCP[LIVE]">Start rCP[LIVE]</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\MistralAseco81\\_MistralAseco02Start.cmd')" style="height: 25px; width: 119px" title="This will start Mistral Aseco">Start Mistral Aseco</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\XAseco114\\_XAseco02Start.cmd')" style="height: 25px; width: 119px" title="This will start XAseco">Start XAseco</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\FAST322\\_FAST02Start.cmd')" style="height: 25px; width: 119px" title="This will start FAST3">Start FAST3</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\FoxControl\\_FoxControl02Start.cmd')" style="height: 25px; width: 119px" title="This will start FOX Control">Start FOX Control</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\ManiaLive\\_ManiaLive02Start.cmd')" style="height: 25px; width: 119px" title="This will start ManiaLive">Start ManiaLive</button><br>
+		</p></div></td>
+		
+    <td><div class="hide" id="hide5"><p>
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\USBWebserver_v8_en\\root\\remoteCP4035\\_Live03Start.cmd')" style="height: 25px; width: 119px" title="This will start remoteCP[LIVE]">Start rCP[LIVE]</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\MistralAseco81\\_MistralAseco03Start.cmd')" style="height: 25px; width: 119px" title="This will start Mistral Aseco">Start Mistral Aseco</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\XAseco114\\_XAseco03Start.cmd')" style="height: 25px; width: 119px" title="This will start XAseco">Start XAseco</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\FAST322\\_FAST03Start.cmd')" style="height: 25px; width: 119px" title="This will start FAST3">Start FAST3</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\FoxControl\\_FoxControl03Start.cmd')" style="height: 25px; width: 119px" title="This will start FOX Control">Start FOX Control</button><br>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="runCmd('.\\SERVER\\DedicatedServer\\ManiaLive\\_ManiaLive03Start.cmd')" style="height: 25px; width: 119px" title="This will start ManiaLive">Start ManiaLive</button><br>
+		</p></div></td>
+  </tr>
+</table>
+		
+		
+	</div>
+	<h3><a href="#">Extras</a></h3>
+	<div>
+		<p><button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Building Backupfile', { life: 10000 });runCmd('.\\SOURCE\\CMD\\backupcomplete.cmd')" style="height: 25px; width: 119px" title="This will Backup TMSiaB">Create Backup</button>
+
+		<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Restoring TMSiaB', { life: 10000 });runCmd('.\\SOURCE\\CMD\\restorebackup.cmd')" style="height: 25px; width: 119px" title="This will restore TMSiaB.<br>A previously created Backup has to be<br> stored in the rootdir of TMSiaB!">Restore Backup</button>
+		
+		<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Building your Server', { life: 10000 });runCmd('.\\SOURCE\\CMD\\makeserver.cmd')" style="height: 25px; width: 119px" title="This will produce a Self-Extracting file<br>containing YOUR Dedicated Server and<br>the Webserver">Create your Server</button><br><br>
+		<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Updating TMSiaB', { life: 10000 });runCmd('.\\SOURCE\\CMD\\getupdate.cmd')" style="height: 25px; width: 119px" title="This will update TMSiaB">Update TMSiaB</button><br><br>
+<br><br><br><br><br><br><br>		</p>
+	</div>
+</div>
+
+</div><!-- End demo -->
+
+</body>
+</html>

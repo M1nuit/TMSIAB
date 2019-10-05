@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Localhost: TmSiaB v4</title>
+	<link rel="stylesheet" href="./css/jquery-ui-1.8.16.custom.css">
+	<script src="./js/jquery-1.6.2.js"></script>
+	<script src="./js/jquery.ui.core.js"></script>
+	<script src="./js/jquery.ui.widget.js"></script>
+	<script src="./js/jquery.ui.accordion.js"></script>
+	<script src="./js/jquery.tipTip.js"></script>
+	<script src="./js/jquery.jgrowl.js"></script>
+	
+	<link rel="stylesheet" href="./css/demos.css">
+	<link rel="stylesheet" href="./css/tipTip.css">
+	<link rel="stylesheet" href="./css/jquery.jgrowl.css">
+		<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ header: "h3" });
+	
+				// Dialog			
+				$('#dialog').dialog({
+					autoOpen: false,
+					width: 600,
+					buttons: {
+						"Ok": function() { 
+							$(this).dialog("close"); 
+						}, 
+						"Cancel": function() { 
+							$(this).dialog("close"); 
+						} 
+					}
+				});
+				
+				// Dialog Link
+				$('#dialog_link').click(function(){
+					$('#dialog').dialog('open');
+					return false;
+				});
+
+				//hover states on the static widgets
+				$('#dialog_link, ul#icons li').hover(
+					function() { $(this).addClass('ui-state-hover'); }, 
+					function() { $(this).removeClass('ui-state-hover'); }
+				);
+				
+			});
+		</script>
+		
+	<script>
+	$(function(){
+	$(".tiptip").tipTip({maxWidth: "auto", edgeOffset: 10});
+	});
+	</script>
+	
+		<style type="text/css">
+			/*demo page css*/
+			body{ font: 62.5% "Trebuchet MS", sans-serif; margin: 10px;}
+			.demoHeaders { margin-top: 0em; }
+			#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+			#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+			ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+	
+		</style>
+	
+	</head>
+	<body bgcolor="#000000">
+		<div id="accordion">
+			<div>
+				<h3><a href="#">Localhost</a></h3>
+				<div>
+			These pages are located at your PC. For security reasons nobody else is able to see them!<br><br>
+			<li><a href="tmtp://#join=s100" class="tiptip" title="Join your server as player (only for TMUN Forever)" >tmtp://#join=s100</a></li>
+			<li><a href="http://localhost:8080/remoteCP4035/" class="tiptip" title="Touch the core of your Dedicated Server" >remoteCP 4.0.3.5</a></li>
+			<li><a href="http://localhost:8080/mistralweb/mychat.php" class="tiptip" title="Mistral Livechat - Mistral Aseco has to be up and running" >Mistral Livechat</a></li>
+			<li><a href="http://localhost:8080/mistralweb/teval.php" title="Mistral Track Evaluation - Mistral Aseco has to be up and running" >Mistral Track Evaluation</a></li>
+			<li><a href="http://localhost:8080/phpmyadmin/" title="Username: root Password: usbw" >PhpMyAdmin</a></li>
+			<li><a href="http://localhost:8080/phpinfo.php" title="Need some information?" >PhpInfo</a></li>
+			</div>
+			</div>
+			<div>
+				<h3><a href="#">Most useful links</a></h3>
+				<div>
+				These pages are located at the WWW.<br><br>
+				<li><a href="http://official.trackmania.com/tmf-communitycode/" title="Looking for your Communitycode?" >Communitycode</a></li>
+				<li><a href="http://en.wikipedia.org/wiki/Port_forwarding" title="Need some infos about Portforwarding?" >Wikipedia.org - Portforwarding</a></li>
+				<li><a href="http://www.tm-forum.com/" title="The official international Forum of Trackmania" >TM-Forum.com</a></li>
+				<li><a href="http://forum.deepsilver.com/forum/forumdisplay.php?f=4/" title="The official german Forum of Trackmania" >Forum-Deepsilver.de</a></li>
+				<li><a href="http://www.tm-exchange.com/" title="Tracks, Tracks, Tracks - Get them all!!!" >TM-Exchange.com</a></li>
+				<li><a href="http://www.et-generation.com/#oben" title="Want some official opponent?" >ET-Generation.com</a></li>
+				<li><a href="http://tm.maniazones.com/" title="The international TM Community" >TM-Maniazones.com</a></li>
+				<li><a href="http://www.trackmania-carpark.com/index.php?lang=en" title="Skins, Skins, Skins" >Trackmania-Carpark.com</a></li>
+				<li><a href="http://www.tm-creative.org/" title="Be creative" >TM-Creative.org</a></li>
+				<li><a href="http://www.tm-tube.com/" title="Vids, Vids, Vids" >TM-Tube.com</a></li>
+				<li><a href="http://tmaniacs.wordpress.com/" title="The best german Blog about TM" >TManiacs.wordpress.com</a></li>
+				</div>
+			</div>
+			<div>
+				<h3><a href="#">Excessive used tools and pages for TmSiaB</a></h3>
+				<div>
+				These pages are located at the WWW.<br><br>
+				<li><a href="http://www.Google.de" title="Want some infos? Get them all! ;O)" >Google.de</a></li>
+				<li><a href="http://jquery.com/" title="GREAT library!" >Jquery.com</a></li>
+				<li><a href="http://www.tmbase.de/" title="One of the best german toolcollection for TM - Home of remoteCP" >TMBase.de</a></li>
+				<li><a href="http://www.tm-forum.com/viewtopic.php?f=128&t=16669/" title="Home of Mistral Aseco 8.1" >Mistral Aseco</a></li>
+				<li><a href="http://www.gamers.org/tmn/" title="Home of XAseco" >Gamers.org/tmn</a></li>
+				<li><a href="http://www.tm-forum.com/viewtopic.php?f=126&t=14211/" title="Home of Fast3" >Fast3</a></li>
+				<li><a href="http://www.usbwebserver.net/en/" title="Very nice Webserver used for TmSiaB v4" >USB Webserver v8</a></li>
+				<li><a href="http://notepad-plus.sourceforge.net/" title="One of the best editors!!!" >Notepad Plus</a></li>
+				<li><a href="http://tmu-xrated.de" title="XRated - My Clan! Thanks for everything" >TMU-XRated.de</a></li>
+				<li><a href="http://technet.microsoft.com/en-us/library/default.aspx" title="Want to learn something about the core?" >Technet.Microsoft.com</a></li>
+				<li><a href="http://selfhtml.org/" title="Selfstudy at it´s best!" >SelfHTML.org</a></li>
+				</div>
+			</div>
+			<div>
+				<h3><a href="#">Disclaimer</a></h3>
+				<div>
+I´m not responsible for any contents linked or referred to from this pages. If any damage occurs by the use of information presented there, only the author of the respective pages might be liable!
+
+I haven´t used any copyrighted material for the publication or, if not possible, tried to indicate the copyright of the respective object.
+				</div>
+			</div>
+		</div>
+    <center>
+	<a href="http://www.tmsiab.tmu-xrated.de">www.tmsiab.tmu-xrated.de</a>
+	</center>
+  </div>
+			</div>
+	
+		</div>
+
+
+	</body>
+</html>
+
+

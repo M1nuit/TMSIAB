@@ -1,0 +1,21 @@
+//* Installation
+//* Version:   0.8.0
+//* Coded by:  cyrilw, Libero, Jens, matrix142
+//* Copyright: FoxRace, http://www.fox-control.de
+
+********************
+*****config.xml*****
+********************
+1. Edit your config.xml like the description in the file.
+
+********************
+*****control.sh*****
+********************
+1. cd /home/foxrace/FoxControl
+   Set this path to the path where your server is located
+
+********************
+********CHMOD*******
+********************
+1. Set CHMOD 777 to your FoxControl Folder
+2. Set CHMOD 777 to /var/run/FoxControl.pid

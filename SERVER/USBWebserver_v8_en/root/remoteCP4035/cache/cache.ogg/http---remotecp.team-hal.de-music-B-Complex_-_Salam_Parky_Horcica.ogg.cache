@@ -1,0 +1,9 @@
+a:6:{s:7:"oggfile";s:69:"http://remotecp.team-hal.de/music/B-Complex_-_Salam_Parky_Horcica.ogg";s:6:"source";s:5:"cache";s:8:"encoding";s:5:"utf-8";s:4:"size";s:7:"6245526";s:7:"summary";s:129:"B-Complex_-_Salam_Parky_Horcica.ogg (6099 kB)
+
+Audio (Vorbis 160kb/s): stereo 44kB/s
+Salam Parky Horcica
+B-Complex
+Free II
+eng
+2
+";s:6:"vorbis";a:13:{s:6:"serial";i:250;s:8:"channels";i:2;s:10:"samplerate";i:44100;s:10:"maxbitrate";i:0;s:10:"nombitrate";i:160000;s:10:"minbitrate";i:0;s:7:"bitrate";i:160000;s:6:"vendor";s:29:"Xiph.Org libVorbis I 20070622";s:8:"comments";a:5:{s:5:"TITLE";s:19:"Salam Parky Horcica";s:6:"ARTIST";s:9:"B-Complex";s:5:"ALBUM";s:7:"Free II";s:7:"COMMENT";s:3:"eng";s:11:"TRACKNUMBER";s:1:"2";}s:10:"commentlen";i:143;s:10:"commentpos";i:407;s:11:"commentnext";i:4674;s:19:"commentleftSegments";s:16:"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ";}}

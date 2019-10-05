@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!-- go to www.tmbase.de and create an account before -->
+  <!-- Master Server is running at 193.47.83.151:10000 -->
+  <server_login>pub_db_login</server_login>
+  <server_password>pub_db_password</server_password>
+  <server_ip>193.47.83.151</server_ip>
+  <server_port>10000</server_port>
+  <!-- Do you want Aseco to display the records? -->
+  <display>true</display>
+  <messages>
+    <record_new>{#server}>> {#record}You secured your {#highlite}{1}{#record}. place with a time of {#highlite}{2}{#record}!</record_new>
+    <record_new_rank>{#server}>> {#highlite}{1}{#record} claimed the {#highlite}{3}{#record}. World Record rank ({#highlite}{2}{#record})!</record_new_rank>
+    <record_first>{#server}>> {#highlite}{1}{#record} took the {#highlite}{3}{#record}. World Record with a time of {#highlite}{2}{#record}!</record_first>
+     <record_new_pub>{#server}>> {#highlite}{1}{#record} secured his {#highlite}{2}{#record}. place with a time of {#highlite}{3}{#record}!</record_new_pub>
+	  <record_new_priv>{#server}>> {#record}You took the {#highlite}{1}{#record}. World Record with a time of {#highlite}{2}{#record}!</record_new_priv>
+      <record_new_rank_priv>{#server}>> {#record}You claimed the {#highlite}{1}{#record}. World Record rank ({#highlite}{2}{#record})!</record_new_rank_priv>
+  </messages>
+</settings>

@@ -1,0 +1,10 @@
+a:6:{s:7:"oggfile";s:80:"http://remotecp.team-hal.de/music/112-the_chemical_brothers-midnight_madness.ogg";s:6:"source";s:5:"cache";s:8:"encoding";s:5:"utf-8";s:4:"size";s:7:"4193960";s:7:"summary";s:166:"112-the_chemical_brothers-midnight_madness.ogg (4095 kB)
+
+Audio (Vorbis 160kb/s): stereo 44kB/s
+Midnight Madness
+The Chemical Brothers
+Brotherhood
+2008
+12
+Electronic
+";s:6:"vorbis";a:13:{s:6:"serial";i:27766;s:8:"channels";i:2;s:10:"samplerate";i:44100;s:10:"maxbitrate";i:0;s:10:"nombitrate";i:160000;s:10:"minbitrate";i:0;s:7:"bitrate";i:160000;s:6:"vendor";s:29:"Xiph.Org libVorbis I 20070622";s:8:"comments";a:6:{s:5:"TITLE";s:16:"Midnight Madness";s:6:"ARTIST";s:21:"The Chemical Brothers";s:5:"ALBUM";s:11:"Brotherhood";s:4:"DATE";s:4:"2008";s:11:"TRACKNUMBER";s:2:"12";s:5:"GENRE";s:10:"Electronic";}s:10:"commentlen";i:175;s:10:"commentpos";i:407;s:11:"commentnext";i:4706;s:19:"commentleftSegments";s:16:"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ";}}

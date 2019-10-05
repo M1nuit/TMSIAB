@@ -1,0 +1,70 @@
+//* Update
+//* Version:   0.9.0
+//* Coded by:  cyrilw, Libero, Jens, matrix142
+//* Copyright: FoxRace, http://www.fox-control.de
+
+######################
+    VERSION 0.9.2
+######################
+
+Just replace the following file: plugins/plugin.dedimania.php
+
+Thank you!
+
+
+######################
+    VERSION 0.9.1
+######################
+
+Copy/Overwrite the following files:
+
+control.php
+plugins/plugin.dedimania.php
+
+You must also add <serverpassword>YourServerpassword</serverpassword>  to your config.xml file.
+YourServerpassword is the password of your Dedicated Serveraccount.
+
+
+######################
+    VERSION 0.9.0
+######################
+
+***************
+    GERMAN
+***************
+Wenn du bereits die Version 0.8.2 von FoxControl installiert hast, musst du nicht alle Dateien überschreiben.
+Folgende Dateien müssen überschrieben/hinzugefügt werden:
+
+control.php
+include/foxcontrol.window.php
+plugins/manager.plugins.php
+plugins/plugin.challenges.php
+plugins/plugin.dedimania.php
+plugins/plugin.jukebox.php
+plugins/plugin.menu.php
+plugins/plugin.newsupdate.php
+plugins/plugin.records.php
+
+Ebenfalls musst du noch folgende Zeilen in der Datei plugins.xml (vor </plugins>) hinzufügen:
+<plugin>manager.plugins.php</plugin>
+<plugin>plugin.jukebox.php</plugin>
+
+***************
+    ENGLISH
+***************
+If you already installed the version 0.8.2 of FoxControl, you don't have to overwrite all files.
+You only have to overwrite/copy the following files:
+
+control.php
+include/foxcontrol.window.php
+plugins/manager.plugins.php
+plugins/plugin.challenges.php
+plugins/plugin.dedimania.php
+plugins/plugin.jukebox.php
+plugins/plugin.menu.php
+plugins/plugin.newsupdate.php
+plugins/plugin.records.php
+
+You must also add the following lines to the plugins.xml file (befor </plugins>):
+<plugin>manager.plugins.php</plugin>
+<plugin>plugin.jukebox.php</plugin>

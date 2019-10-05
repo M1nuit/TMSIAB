@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FoxControl_config>
+	<!-- Essential settings to run Fox Control -->
+
+	<YourTmLogin>DTMLOGIN1</YourTmLogin>  <!-- Your TM-Login to be the Superadmin when starting Fox Control the first time -->
+
+	<serverlogin>DLOGIN</serverlogin> <!-- Login of your Dedicated Server Account from https://player.trackmania.com/index.php -->
+	<serverpassword>DPASSWORD</serverpassword> <!-- The Password of your Dedicated Server Account -->
+	<community_code>DCOMMUNITYCODE</community_code>  <!-- Get the Communitycode here and enter Serverlogin + PW: http://official.trackmania.com/tmf-communitycode    -->
+	<port>DMLRPCPORT</port>                        <!-- Port of your Dedicated Server -->
+	<SuperAdminPW>DSUPERDAMINPW1</SuperAdminPW>        <!-- SuperAdmin Password of your Dedicated Server -->
+	<nation>DNATIONALITY</nation>                  <!-- Nation of your Servers location -->
+	<ServerLocation>Europe/London</ServerLocation> <!-- Detailed Server location. Required for date_default_timezone_set(); -->
+
+	<!-- Database Settings for Fox Control -->
+
+	<db_path>localhost</db_path>             <!-- Database Server - usually 'localhost' (without the apostrophes) -->
+	<db_user>foxcontrol</db_user>                <!-- Database Username -->
+	<db_passwd>usbw</db_passwd>           <!-- Database Password -->
+	<db_name>foxcontrol</db_name>		 <!-- Database Name -->
+
+	<!-- Name Settings -->
+
+	<name_superadmin>Superadmin</name_superadmin> <!-- Name which will be displayed on the Server for Usergroup 'Superadmin' -->
+	<name_admin>Admin</name_admin>                <!-- Name which will be displayed on the Server for Usergroup 'Admin' -->
+	<name_operator>Operator</name_operator>       <!-- Name which will be displayed on the Server for Usergroup 'Operator' -->
+		
+	<!--Basic Settings -->
+
+	<text_false_rights>You don\'t have the required admin rights!</text_false_rights> <!-- Text wich will be displayed on the Server, if someone has false rights -->
+
+
+	<!-- Whit this, you can easily display a window, wich popups to a player when he join. -->
+	<startwindow>true</startwindow> <!-- Displaying a startwindow when connecting on the server. True = true; False = false -->
+		<startwindowtext>Hello {player}!{newline}This Server is running with FoxControl.{newline}Have fun on {server}!</startwindowtext> <!-- Text wich will be displayed in the startwindow. Use {newline} for a new line, {player} for the connected player and {server} for the servername-->
+		
+	<player_message_connect>true</player_message_connect> <!-- Displaying a message when a Player connects. True = true; False = false -->
+	<player_message_left>true</player_message_left> <!-- Displaying a message when a Player leaves. True = true; False = false -->
+
+	<!-- color Settings -->
+
+	<default_color>07b</default_color>
+	<color_kick>$f90</color_kick>
+	<color_warn>$f90</color_warn>
+	<color_ban>$f90</color_ban>
+	<color_unban>$f90</color_unban>
+	<color_ignore>$f90</color_ignore>
+	<color_setpw>$f90</color_setpw>
+	<color_newservername>$f90</color_newservername>
+	<color_newadmin>$0f0</color_newadmin>
+	<color_removeadmin>$f90</color_removeadmin>
+	<color_join>$07b</color_join>
+	<color_left>$07b</color_left>
+	<color_op_connect>$f00</color_op_connect>
+	<color_admin_connect>$f00</color_admin_connect>
+	<color_superadmin_connect>$f00</color_superadmin_connect>
+	
+	<!-- Menu settings -->
+	<menu_name>FOX</menu_name>                    						 <!-- Not more then 4 letters -->
+																		 <!-- Not more then 3 chat shortcuts -->
+	<shortcut1_name>Cyril</shortcut1_name>
+	<shortcut2_name>Libero</shortcut2_name>
+	<shortcut3_name>Jens</shortcut3_name>							 	 <!-- without color codes -->
+
+
+	<shortcut1>$o$06FÒ“ox$FFFÂ» $h[ci]C$06fÑƒ$fffÑÎ¹L</shortcut1>		 <!-- with colorcodes -->
+	<shortcut2>$o$06FÒ“ox$FFFÂ»$FFFï¾šÄ¬ã‚e$06FÂ®$FFFO</shortcut2>
+	<shortcut3>$h[je]$af0á…”Ð¨Ð¢Ò’?!á…• $f51Jens$fff Â»$111QTM$fffÂ«</shortcut3>
+
+
+
+	<!--
+	#########################################################################
+	###### Please just edit this settings if you know what they means! ######
+	#########################################################################
+	-->
+	<default_scoretable_enabled>false</default_scoretable_enabled>
+	<default_challenge_info_enabled>false</default_challenge_info_enabled>
+	<notice_enabled>false</notice_enabled>
+
+
+	
+
+
+
+</FoxControl_config>

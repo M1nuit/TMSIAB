@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<aseco_plugins>
+	<plugin>mistral.trackeval.php</plugin>
+	<plugin>plugin.localdatabase.php</plugin>
+	<plugin>chat.admin.php</plugin>
+	<plugin>chat.help.php</plugin>
+	<plugin>chat.me.php</plugin>
+	<plugin>chat.players.php</plugin>
+	<plugin>mistral.quit.php</plugin>
+	<plugin>mistral.core.php</plugin>
+	<plugin>mistral.main.php</plugin>
+	<plugin>plugin.rasp_jukebox.php</plugin>
+	<plugin>mistral.autotime.php</plugin>
+	<plugin>mistral.infomessages.php</plugin>
+	<plugin>plugin.rasp.php</plugin>
+	<plugin>plugin.rasp_nextmap.php</plugin>
+	<plugin>plugin.rasp_chat.php</plugin>
+	<plugin>mistral.joinleave.php</plugin>
+	<plugin>mistral.playeradmin.php</plugin>
+	<plugin>mistral.badwords.php</plugin>
+	<plugin>mistral.teamranking.php</plugin>
+	<plugin>mistral.playerinfo.php</plugin>
+	<plugin>mistral.billing.php</plugin>
+	<plugin>mistral.idlekick.php</plugin>
+	<plugin>mistral.easteregg.php</plugin>
+</aseco_plugins>

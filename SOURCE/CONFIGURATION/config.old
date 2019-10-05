@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dedicated>
+	<dedicatedvalues>
+		<ttmsiabid></ttmsiabid><!-- Reserved -->
+		<dtype></dtype><!-- TMUF or TMNF -->
+		<dplugin></dplugin><!-- LIVE XASECO FAST3 FOXCONTROL MANIALIVE or MASECO  -->
+		<dneighborhood></dneighborhood><!-- LAN or INTERNET -->
+		<dfreezone></dfreezone><!-- HIDE or VISIBLE -->
+		<dcopper></dcopper><!-- COPPERYES or COPPERNO -->
+		<dplayerkey></dplayerkey><!-- Last 3 chars of Playerkey -->
+		<dlocalip></dlocalip>
+		<utmport></utmport>
+		<dlogin></dlogin>
+		<dpassword></dpassword>
+		<dtmlogin></dtmlogin>
+		<dcommunitycode></dcommunitycode>
+		<dnationality></dnationality>
+		<ddadicatedname></ddadicatedname>
+		<dsuperdaminpw></dsuperdaminpw>
+		<dserverport></dserverport>
+		<dptpport></dptpport>
+		<dmlrpcport></dmlrpcport>
+	</dedicatedvalues>
+</dedicated>

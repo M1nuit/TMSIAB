@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<admins>
+	<admin>
+		<id>L1</id>
+		<active>true</active>
+		<servers>
+			<server id='1' group='1' />
+			<server id="2" group="1"/>
+            <server id="3" group="1"/>
+		</servers>
+		<username>rcplive</username>
+		<password>5b8e508f6f4a95bc581a37243d88f07e</password>
+		<nocode>false</nocode>
+		<tmaccount>false</tmaccount>
+		<language>en</language>
+		<style>default</style>
+	</admin>
+	<admin>
+		<id>G1</id>
+		<active>true</active>
+		<servers>
+			<server id='1' group='G1' />
+			<server id='2' group='G1' />
+			<server id='3' group='G1' />
+		</servers>
+		<username>Guest</username>
+		<password>adb831a7fdd83dd1e2a309ce7591dff8</password>
+		<nocode>false</nocode>
+		<tmaccount>false</tmaccount>
+		<language>en</language>
+		<style>default</style>
+	</admin>
+	<admin>
+		<id>1</id>
+		<active>true</active>
+		<servers>
+			<server id='1' group='1' />
+			<server id="2" group="1"/>
+            <server id="3" group="1"/>
+		</servers>
+		<username>DTMLOGIN1</username>
+		<password>21232f297a57a5a743894a0e4a801fc3</password>
+		<nocode>false</nocode>
+		<tmaccount>DTMLOGIN1</tmaccount>
+		<language>en</language>
+		<style>default</style>
+	</admin>
+</admins>

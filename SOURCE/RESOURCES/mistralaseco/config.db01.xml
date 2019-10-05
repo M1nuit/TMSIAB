@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <aseco>
+    <admins>
+      <tmlogin>DTMLOGIN1</tmlogin>
+    </admins>
+    <colors>
+      <error>$f00$i</error>
+      <emotic>$fa0</emotic>
+      <record>$0f3</record>
+      <message>$39f</message>
+      <server>$ff0</server>
+      <highlite>$fff</highlite>
+      <welcome>$f00</welcome>
+      <interact>$ff0$i</interact>
+    </colors>
+    <messages>
+      <startup>{#server}*** Aseco/Rasp started on TmSiaB v4{#server} - Mistral Mod.***</startup>
+      <welcome>{#welcome}Hello {1}{#welcome}, welcome to TmSiaB v4 {#welcome}!{br}{#highlite}Users: {2}; Records: {3}; Tracks {4}{br}{#welcome}$nIf you can afford it, please donate some coppers for the lottery, so new players can benefit.</welcome>
+      <record_new>{#server}>> {#record}You secured your {#highlite}{1}{#record}. place with a time of {#highlite}{2}{#record}!</record_new>
+      <record_new_rank>{#server}>> {#highlite}{1}{#record} claimed the {#highlite}{3}{#record}. World Record rank ({#highlite}{2}{#record})!</record_new_rank>
+      <record_first>{#server}>> {#highlite}{1}{#record} took the {#highlite}{3}{#record}. World Record with a time of {#highlite}{2}{#record}!</record_first>
+      <record_current>{#server}>> {#message}Current record on {#highlite}{1}{#message} is {#highlite}{2}{#message} and held by {#highlite}{3}</record_current>
+      <record_none>{#server}>> {#message}Currently no record on {#highlite}{1}{#message} ...</record_none>
+      <record_error>{#server}>> {#error}Could not get records from database... No records this round!</record_error>
+      <ranking>{#server}>> {#message}Record rankings after this round:</ranking>
+      <ranking_record>{#highlite}{1}{#message}.{#highlite}{2}{#message}[{#highlite}{3}{#message}],</ranking_record>
+      <ranking_none>{#server}>> {#message}Record rankings after this round: no records!</ranking_none>
+    </messages>
+    <welcome_msg_window>False</welcome_msg_window>
+    <script_timeout>60</script_timeout>
+  </aseco>
+  <tmserver>
+    <login>SUPERADMIN_LOGIN</login>
+    <password>DSUPERDAMINPW1</password>
+    <ip>127.0.0.1</ip>
+    <port>DMLRPCPORT</port>
+  </tmserver>
+</settings>

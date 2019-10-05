@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=9">
+		
+
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/jquery-ui-1.8.16.custom.css">
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery-1.6.2.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.ui.accordion.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.tipTip.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.jgrowl.js"></script>
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/jquery.jkey-1.2.js"></script>
+	
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/demos.css">
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/tipTip.css">
+	<link rel="stylesheet" href="../../SERVER/USBWebserver_v8_en/root/css/jquery.jgrowl.css">
+	
+	<script type="text/javascript" src="../../SERVER/USBWebserver_v8_en/root/js/pagefade.js"></script>
+	
+<style type="text/css">
+p	
+{ 
+	color: #999; 
+	ffont-size:60px;
+	padding-left:0px;	
+}
+</style>
+	</head>
+	
+<script language="javascript" type="text/javascript">
+function runImCmd(cmd)
+{
+  var wshShell = new ActiveXObject("WScript.shell");
+  wshShell.run(cmd, 1);
+}
+
+$(document).ready(function(){
+	$(document).jkey('shift+x+r',function(){
+	$("#hide1").slideDown("fast");
+	$("#hide2").slideDown("fast");});})
+</script>
+
+		<script>
+	$(function(){
+	$(".fg-button").tipTip({maxWidth: "auto", edgeOffset: 10, defaultPosition: "bottom"});
+	});
+	</script>
+
+<script language="javascript" type="text/javascript">
+function runCmd(cmd)
+{
+	var shell = new ActiveXObject("WScript.shell");
+	var x=window.confirm("Proceed?");
+	if (x)
+	shell.run(cmd, 1);
+	else
+	{ return true; };
+}
+</script>
+<style type="text/css">.hide{ display:none; }</style> 
+	
+	<body bgcolor=#1d1d1d>
+	
+	
+	<br><br>
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Webserver launched', { life: 10000 });runCmd('.\\SOURCE\\CMD\\startwebserver.cmd')" style="height: 25px; width: 119px" title="This will start the Webserver.">Start Webserver</button><br><br>
+			<div class="hide" id="hide1"><p>Server 01</p></div>
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Dedicated Server launched', { life: 10000 });runCmd('.\\SERVER\\_StartDedicated01.cmd')" style="height: 25px; width: 119px" title="This will start the Dedicated Server.">Start Dedicated</button>
+			
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Plugin launched', { life: 10000 });runCmd('.\\SERVER\\_Startplugin01.cmd')" style="height: 25px; width: 119px" title="This will start the Plugin.<br>You have to wait until the Dedicated Server has started!">Start Plugin</button><br><br>
+
+<div class="hide" id="hide2">
+<p>Server 02</p>
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Second Dedicated Server launched', { life: 10000 });runCmd('.\\SERVER\\_StartDedicated02.cmd')" style="height: 25px; width: 119px" title="This will start the second Dedicated Server.">Start Dedicated</button>
+			
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Second Plugin launched', { life: 10000 });runCmd('.\\SERVER\\_Startplugin02.cmd')" style="height: 25px; width: 119px" title="This will start the Plugin for the second Dedicated Server.<br>You have to wait until the Dedicated Server has started!">Start Plugin</button><br><br>
+<p>Server 03</p>		
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Third Dedicated Server launched', { life: 10000 });runCmd('.\\SERVER\\_StartDedicated03.cmd')" style="height: 25px; width: 119px" title="This will start the third Dedicated Server.">Start Dedicated</button>
+			
+			<button class="fg-button ui-state-default ui-corner-all" onclick="$.jGrowl('Plugin launched', { life: 10000 });runCmd('.\\SERVER\\_Startplugin03.cmd')" style="height: 25px; width: 119px" title="This will start the Plugin for the third Dedicated Server.<br>You have to wait until the Dedicated Server has started!">Start Plugin</button><br><br>
+</div>			
+		
+
+	</div>
+	
+	</body>
+</html>

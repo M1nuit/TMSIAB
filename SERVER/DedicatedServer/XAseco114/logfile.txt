@@ -1,0 +1,1349 @@
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/11,19:27:37] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/11,19:27:37] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/11,19:27:37] Connection established successfully !
+[09/11,19:27:37] [LocalDB] Load config file [localdatabase.xml]
+[09/11,19:27:37] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/11,19:27:38] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/11,19:27:38] [LocalDB] Checking database structure...
+[09/11,19:27:38] [LocalDB] ...Structure OK!
+[09/11,19:27:38] [RASP] Loading config file [rasp.xml]
+[09/11,19:27:38] [RASP] Checking database structure...
+[09/11,19:27:38] [RASP] ...Structure OK!
+[09/11,19:27:38] [RASP] Cleaning up unused data
+[09/11,19:27:38] Load default style [styles/DarkBlur.xml]
+[09/11,19:27:38] Load default admin panel [panels/AdminBelowChat.xml]
+[09/11,19:27:38] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/11,19:27:38] Load default records panel [panels/RecordsRightBottom.xml]
+[09/11,19:27:38] Load default vote panel [panels/VoteBelowChat.xml]
+[09/11,19:27:38] ************* (Dedimania) *************
+[09/11,19:27:38] * Dataserver connection on Dedimania ...
+[09/11,19:27:38] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/11,19:27:38] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/11,19:27:38] * Connection and status ok! (Dedimania.8026)
+[09/11,19:27:38] * NEWS (Dedimania, 08/05): news
+[09/11,19:27:38] ------------- (Dedimania) -------------
+[PHP Warning] mkdir(): No such file or directory on line 287 in file D:\TMSB_4\58 test\SERVER\DedicatedServer\XAseco114\plugins\plugin.rasp.php
+{RASP_ERROR} TMX Directory (D:\TMSB_4\58 test\SERVER\DedicatedServer\TrackmaniaServer_2011-02-11\GameData\Tracks\Challenges\TMX) cannot be created
+{RASP_ERROR} TMX Directory (D:\TMSB_4\58 test\SERVER\DedicatedServer\TrackmaniaServer_2011-02-11\GameData\Tracks\Challenges\TMX) cannot be written to
+[09/11,19:27:39] << player 250 joined the game [heatseaker : $AAB$OXR // $fa0$IMerlin : Germany : 371049 : 192.168.2.41]
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - Rounds
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/11,19:27:40] track changed [none] >> [A01-Race]
+[09/11,19:27:40] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/11,19:31:36] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/11,19:31:36] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/11,19:31:36] Connection established successfully !
+[09/11,19:31:36] [LocalDB] Load config file [localdatabase.xml]
+[09/11,19:31:36] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/11,19:31:37] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/11,19:31:37] [LocalDB] Checking database structure...
+[09/11,19:31:37] [LocalDB] ...Structure OK!
+[09/11,19:31:37] [RASP] Loading config file [rasp.xml]
+[09/11,19:31:37] [RASP] Checking database structure...
+[09/11,19:31:37] [RASP] ...Structure OK!
+[09/11,19:31:37] [RASP] Cleaning up unused data
+[09/11,19:31:37] Load default style [styles/DarkBlur.xml]
+[09/11,19:31:37] Load default admin panel [panels/AdminBelowChat.xml]
+[09/11,19:31:37] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/11,19:31:37] Load default records panel [panels/RecordsRightBottom.xml]
+[09/11,19:31:37] Load default vote panel [panels/VoteBelowChat.xml]
+[09/11,19:31:38] ************* (Dedimania) *************
+[09/11,19:31:38] * Dataserver connection on Dedimania ...
+[09/11,19:31:38] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/11,19:31:38] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/11,19:31:38] * Connection and status ok! (Dedimania.8047)
+[09/11,19:31:38] * NEWS (Dedimania, 08/05): news
+[09/11,19:31:38] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - Rounds
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/11,19:31:38] track changed [none] >> [A01-Race]
+[09/11,19:31:38] currently no record on A01-Race
+[09/11,19:32:29] << player 250 joined the game [heatseaker : $AAB$OXR // $fa0$IMerlin : Germany : 371049 : 192.168.2.41]
+[09/11,19:32:58] player heatseaker clicked command "/admin replaymap"
+[09/11,19:32:58] MasterAdmin [heatseaker] requeues challenge!
+[09/11,19:33:03] player heatseaker clicked command "/admin restartmap"
+[09/11,19:33:03] MasterAdmin [heatseaker] restarts challenge!
+End Round
+Restart Challenge (instant)
+[09/11,19:33:15] player heatseaker clicked command "/admin players live"
+Begin Round
+[09/11,19:33:23] player heatseaker clicked command "/admin cancel"
+[09/11,19:33:23] MasterAdmin [heatseaker] cancels vote!
+[09/11,19:33:28] player heatseaker clicked command "/admin pass"
+[09/11,19:33:39] player heatseaker clicked command "/admin endround"
+[09/11,19:33:39] MasterAdmin [heatseaker] forces round end!
+End Round
+Begin Round
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/11,19:41:58] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/11,19:41:58] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/11,19:41:58] Connection established successfully !
+[09/11,19:41:58] [LocalDB] Load config file [localdatabase.xml]
+[09/11,19:41:58] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/11,19:41:59] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/11,19:41:59] [LocalDB] Checking database structure...
+[09/11,19:41:59] [LocalDB] ...Structure OK!
+[09/11,19:41:59] [RASP] Loading config file [rasp.xml]
+[09/11,19:41:59] [RASP] Checking database structure...
+[09/11,19:41:59] [RASP] ...Structure OK!
+[09/11,19:41:59] [RASP] Cleaning up unused data
+[09/11,19:41:59] Load default style [styles/DarkBlur.xml]
+[09/11,19:41:59] Load default admin panel [panels/AdminBelowChat.xml]
+[09/11,19:41:59] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/11,19:41:59] Load default records panel [panels/RecordsRightBottom.xml]
+[09/11,19:41:59] Load default vote panel [panels/VoteBelowChat.xml]
+[09/11,19:41:59] ************* (Dedimania) *************
+[09/11,19:41:59] * Dataserver connection on Dedimania ...
+[09/11,19:41:59] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/11,19:41:59] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/11,19:41:59] * Connection and status ok! (Dedimania.8029)
+[09/11,19:41:59] * NEWS (Dedimania, 08/05): news
+[09/11,19:41:59] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - Rounds
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/11,19:42:00] track changed [none] >> [A01-Race]
+[09/11,19:42:00] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/12,19:14:48] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/12,19:14:48] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/12,19:14:48] Connection established successfully !
+[09/12,19:14:48] [LocalDB] Load config file [localdatabase.xml]
+[09/12,19:14:48] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/12,19:14:49] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/12,19:14:49] [LocalDB] Checking database structure...
+[09/12,19:14:49] [LocalDB] ...Structure OK!
+[09/12,19:14:49] [RASP] Loading config file [rasp.xml]
+[09/12,19:14:49] [RASP] Checking database structure...
+[09/12,19:14:49] [RASP] ...Structure OK!
+[09/12,19:14:49] [RASP] Cleaning up unused data
+[09/12,19:14:49] Load default style [styles/DarkBlur.xml]
+[09/12,19:14:49] Load default admin panel [panels/AdminBelowChat.xml]
+[09/12,19:14:49] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/12,19:14:49] Load default records panel [panels/RecordsRightBottom.xml]
+[09/12,19:14:49] Load default vote panel [panels/VoteBelowChat.xml]
+[09/12,19:14:50] ************* (Dedimania) *************
+[09/12,19:14:50] * Dataserver connection on Dedimania ...
+[09/12,19:14:50] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/12,19:14:50] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/12,19:14:50] * Connection and status ok! (Dedimania.8049)
+[09/12,19:14:50] * NEWS (Dedimania, 08/05): news
+[09/12,19:14:50] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/12,19:14:51] track changed [none] >> [A01-Race]
+[09/12,19:14:51] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/12,20:06:40] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/12,20:06:40] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/12,20:06:40] Connection established successfully !
+[09/12,20:06:40] [LocalDB] Load config file [localdatabase.xml]
+[09/12,20:06:40] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/12,20:06:41] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/12,20:06:41] [LocalDB] Checking database structure...
+[09/12,20:06:41] [LocalDB] ...Structure OK!
+[09/12,20:06:41] [RASP] Loading config file [rasp.xml]
+[09/12,20:06:41] [RASP] Checking database structure...
+[09/12,20:06:41] [RASP] ...Structure OK!
+[09/12,20:06:41] [RASP] Cleaning up unused data
+[09/12,20:06:41] Load default style [styles/DarkBlur.xml]
+[09/12,20:06:41] Load default admin panel [panels/AdminBelowChat.xml]
+[09/12,20:06:41] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/12,20:06:41] Load default records panel [panels/RecordsRightBottom.xml]
+[09/12,20:06:41] Load default vote panel [panels/VoteBelowChat.xml]
+[09/12,20:06:41] ************* (Dedimania) *************
+[09/12,20:06:41] * Dataserver connection on Dedimania ...
+[09/12,20:06:41] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/12,20:06:42] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/12,20:06:42] * Connection and status ok! (Dedimania.8035)
+[09/12,20:06:42] * NEWS (Dedimania, 08/05): news
+[09/12,20:06:42] ------------- (Dedimania) -------------
+[PHP Warning] mkdir(): No such file or directory on line 287 in file D:\TMSB_4\58test\SERVER\DedicatedServer\XAseco114\plugins\plugin.rasp.php
+{RASP_ERROR} TMX Directory (D:\TMSB_4\58test\SERVER\DedicatedServer\TrackmaniaServer_2011-02-11\GameData\Tracks\Challenges\TMX) cannot be created
+{RASP_ERROR} TMX Directory (D:\TMSB_4\58test\SERVER\DedicatedServer\TrackmaniaServer_2011-02-11\GameData\Tracks\Challenges\TMX) cannot be written to
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/12,20:06:42] track changed [none] >> [A02-Race]
+[09/12,20:06:42] currently no record on A02-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/12,22:32:40] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/12,22:32:40] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/12,22:32:40] Connection established successfully !
+[09/12,22:32:40] [LocalDB] Load config file [localdatabase.xml]
+[09/12,22:32:40] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/12,22:32:41] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/12,22:32:41] [LocalDB] Checking database structure...
+[09/12,22:32:41] [LocalDB] ...Structure OK!
+[09/12,22:32:41] [RASP] Loading config file [rasp.xml]
+[09/12,22:32:41] [RASP] Checking database structure...
+[09/12,22:32:41] [RASP] ...Structure OK!
+[09/12,22:32:41] [RASP] Cleaning up unused data
+[09/12,22:32:41] Load default style [styles/DarkBlur.xml]
+[09/12,22:32:41] Load default admin panel [panels/AdminBelowChat.xml]
+[09/12,22:32:41] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/12,22:32:41] Load default records panel [panels/RecordsRightBottom.xml]
+[09/12,22:32:41] Load default vote panel [panels/VoteBelowChat.xml]
+[09/12,22:32:41] ************* (Dedimania) *************
+[09/12,22:32:41] * Dataserver connection on Dedimania ...
+[09/12,22:32:41] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/12,22:32:41] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/12,22:32:41] * Connection and status ok! (Dedimania.8038)
+[09/12,22:32:41] * NEWS (Dedimania, 08/05): news
+[09/12,22:32:41] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/12,22:32:42] track changed [none] >> [A01-Race]
+[09/12,22:32:42] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:31:13] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:31:18] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:31:18] Connection established successfully !
+[09/13,08:31:18] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:31:18] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:31:22] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:31:22] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:31:22] Connection established successfully !
+[09/13,08:31:22] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:31:22] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:31:39] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:31:39] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:31:39] Connection established successfully !
+[09/13,08:31:39] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:31:39] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:32:12] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:32:12] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:32:12] Connection established successfully !
+[09/13,08:32:12] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:32:12] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:32:14] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:32:14] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:32:14] Connection established successfully !
+[09/13,08:32:14] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:32:14] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:32:15] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:32:15] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:32:15] Connection established successfully !
+[09/13,08:32:15] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:32:15] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:32:53] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:32:53] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:32:53] Connection established successfully !
+[09/13,08:32:53] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:32:53] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,08:33:03] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,08:33:03] [LocalDB] Checking database structure...
+[09/13,08:33:03] [LocalDB] ...Structure OK!
+[09/13,08:33:03] [RASP] Loading config file [rasp.xml]
+[09/13,08:33:03] [RASP] Checking database structure...
+[09/13,08:33:03] [RASP] ...Structure OK!
+[09/13,08:33:03] [RASP] Cleaning up unused data
+[09/13,08:33:03] Load default style [styles/DarkBlur.xml]
+[09/13,08:33:03] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,08:33:03] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,08:33:03] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,08:33:03] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,08:33:03] ************* (Dedimania) *************
+[09/13,08:33:03] * Dataserver connection on Dedimania ...
+[09/13,08:33:03] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,08:33:03] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,08:33:03] * Connection and status ok! (Dedimania.8033)
+[09/13,08:33:03] * NEWS (Dedimania, 08/05): news
+[09/13,08:33:03] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,08:33:07] track changed [none] >> [A01-Race]
+[09/13,08:33:07] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,08:42:00] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,08:42:00] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,08:42:00] Connection established successfully !
+[09/13,08:42:00] [LocalDB] Load config file [localdatabase.xml]
+[09/13,08:42:00] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,08:42:01] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,08:42:01] [LocalDB] Checking database structure...
+[09/13,08:42:01] [LocalDB] ...Structure OK!
+[09/13,08:42:01] [RASP] Loading config file [rasp.xml]
+[09/13,08:42:01] [RASP] Checking database structure...
+[09/13,08:42:01] [RASP] ...Structure OK!
+[09/13,08:42:01] [RASP] Cleaning up unused data
+[09/13,08:42:01] Load default style [styles/DarkBlur.xml]
+[09/13,08:42:01] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,08:42:01] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,08:42:01] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,08:42:01] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,08:42:01] ************* (Dedimania) *************
+[09/13,08:42:01] * Dataserver connection on Dedimania ...
+[09/13,08:42:01] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,08:42:01] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,08:42:01] * Connection and status ok! (Dedimania.8037)
+[09/13,08:42:01] * NEWS (Dedimania, 08/05): news
+[09/13,08:42:01] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,08:42:02] track changed [none] >> [A01-Race]
+[09/13,08:42:02] currently no record on A01-Race
+[XASECO Fatal Error] ExecCallbacks XMLRPC Error [-32300] - transport error - cannot read size/handle on line 994 in file D:\AAATmSiaB_NEU\70 Final\SERVER\DedicatedServer\XAseco114\aseco.php
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,13:12:03] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,13:12:03] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,13:12:03] Connection established successfully !
+[09/13,13:12:03] [LocalDB] Load config file [localdatabase.xml]
+[09/13,13:12:03] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,13:12:04] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,13:12:04] [LocalDB] Checking database structure...
+[09/13,13:12:04] [LocalDB] ...Structure OK!
+[09/13,13:12:04] [RASP] Loading config file [rasp.xml]
+[09/13,13:12:04] [RASP] Checking database structure...
+[09/13,13:12:04] [RASP] ...Structure OK!
+[09/13,13:12:04] [RASP] Cleaning up unused data
+[09/13,13:12:04] Load default style [styles/DarkBlur.xml]
+[09/13,13:12:04] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,13:12:04] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,13:12:04] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,13:12:04] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,13:12:04] ************* (Dedimania) *************
+[09/13,13:12:04] * Dataserver connection on Dedimania ...
+[09/13,13:12:04] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,13:12:04] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,13:12:04] * Connection and status ok! (Dedimania.8003)
+[09/13,13:12:04] * NEWS (Dedimania, 08/05): news
+[09/13,13:12:04] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,13:12:06] track changed [none] >> [A01-Race]
+[09/13,13:12:06] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,13:49:52] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,13:49:52] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,13:49:52] Connection established successfully !
+[09/13,13:49:52] [LocalDB] Load config file [localdatabase.xml]
+[09/13,13:49:52] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,13:49:53] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,13:49:53] [LocalDB] Checking database structure...
+[09/13,13:49:53] [LocalDB] ...Structure OK!
+[09/13,13:49:53] [RASP] Loading config file [rasp.xml]
+[09/13,13:49:53] [RASP] Checking database structure...
+[09/13,13:49:53] [RASP] ...Structure OK!
+[09/13,13:49:53] [RASP] Cleaning up unused data
+[09/13,13:49:53] Load default style [styles/DarkBlur.xml]
+[09/13,13:49:53] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,13:49:53] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,13:49:53] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,13:49:53] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,13:49:53] ************* (Dedimania) *************
+[09/13,13:49:53] * Dataserver connection on Dedimania ...
+[09/13,13:49:53] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,13:49:53] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,13:49:53] * Connection and status ok! (Dedimania.8017)
+[09/13,13:49:53] * NEWS (Dedimania, 08/05): news
+[09/13,13:49:53] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,13:49:54] track changed [none] >> [A01-Race]
+[09/13,13:49:54] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,13:50:07] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,13:50:07] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,13:50:07] Connection established successfully !
+[09/13,13:50:07] [LocalDB] Load config file [localdatabase.xml]
+[09/13,13:50:07] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,13:50:08] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,13:50:08] [LocalDB] Checking database structure...
+[09/13,13:50:08] [LocalDB] ...Structure OK!
+[09/13,13:50:08] [RASP] Loading config file [rasp.xml]
+[09/13,13:50:08] [RASP] Checking database structure...
+[09/13,13:50:08] [RASP] ...Structure OK!
+[09/13,13:50:08] [RASP] Cleaning up unused data
+[09/13,13:50:08] Load default style [styles/DarkBlur.xml]
+[09/13,13:50:09] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,13:50:09] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,13:50:09] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,13:50:09] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,13:50:09] ************* (Dedimania) *************
+[09/13,13:50:09] * Dataserver connection on Dedimania ...
+[09/13,13:50:09] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,13:50:09] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,13:50:09] * Connection and status ok! (Dedimania.8031)
+[09/13,13:50:09] * NEWS (Dedimania, 08/05): news
+[09/13,13:50:09] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,13:50:09] track changed [none] >> [A01-Race]
+[09/13,13:50:09] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,13:52:40] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,13:52:40] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,13:52:40] Connection established successfully !
+[09/13,13:52:40] [LocalDB] Load config file [localdatabase.xml]
+[09/13,13:52:40] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,13:52:41] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,13:52:41] [LocalDB] Checking database structure...
+[09/13,13:52:41] [LocalDB] ...Structure OK!
+[09/13,13:52:41] [RASP] Loading config file [rasp.xml]
+[09/13,13:52:41] [RASP] Checking database structure...
+[09/13,13:52:41] [RASP] ...Structure OK!
+[09/13,13:52:41] [RASP] Cleaning up unused data
+[09/13,13:52:41] Load default style [styles/DarkBlur.xml]
+[09/13,13:52:41] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,13:52:41] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,13:52:41] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,13:52:41] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,13:52:41] ************* (Dedimania) *************
+[09/13,13:52:41] * Dataserver connection on Dedimania ...
+[09/13,13:52:41] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,13:52:41] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,13:52:41] * Connection and status ok! (Dedimania.8032)
+[09/13,13:52:41] * NEWS (Dedimania, 08/05): news
+[09/13,13:52:41] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,13:52:42] track changed [none] >> [A01-Race]
+[09/13,13:52:42] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,13:53:28] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,13:53:28] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,13:53:28] Connection established successfully !
+[09/13,13:53:28] [LocalDB] Load config file [localdatabase.xml]
+[09/13,13:53:28] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,13:53:29] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,13:53:29] [LocalDB] Checking database structure...
+[09/13,13:53:29] [LocalDB] ...Structure OK!
+[09/13,13:53:29] [RASP] Loading config file [rasp.xml]
+[09/13,13:53:29] [RASP] Checking database structure...
+[09/13,13:53:29] [RASP] ...Structure OK!
+[09/13,13:53:29] [RASP] Cleaning up unused data
+[09/13,13:53:29] Load default style [styles/DarkBlur.xml]
+[09/13,13:53:29] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,13:53:29] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,13:53:29] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,13:53:29] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,13:53:29] ************* (Dedimania) *************
+[09/13,13:53:29] * Dataserver connection on Dedimania ...
+[09/13,13:53:29] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,13:53:29] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,13:53:29] * Connection and status ok! (Dedimania.8022)
+[09/13,13:53:29] * NEWS (Dedimania, 08/05): news
+[09/13,13:53:29] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,13:53:30] track changed [none] >> [A01-Race]
+[09/13,13:53:30] currently no record on A01-Race
+[XAseco] PHP Version is 5.3.8 on WINNT
+[XAseco] Load settings [config.xml]
+[XAseco] Load admin/ops lists [adminops.xml]
+[XAseco] Load banned IPs list [bannedips.xml]
+[XAseco] Load plugins list [plugins.xml]
+[XAseco] Load plugin [plugin.localdatabase.php]
+[XAseco] Load plugin [plugin.rounds.php]
+[XAseco] Load plugin [chat.admin.php]
+[XAseco] Load plugin [chat.help.php]
+[XAseco] Load plugin [chat.records.php]
+[XAseco] Load plugin [chat.records2.php]
+[XAseco] Load plugin [chat.recrels.php]
+[XAseco] Load plugin [chat.dedimania.php]
+[XAseco] Load plugin [chat.players.php]
+[XAseco] Load plugin [chat.players2.php]
+[XAseco] Load plugin [chat.wins.php]
+[XAseco] Load plugin [chat.laston.php]
+[XAseco] Load plugin [chat.lastwin.php]
+[XAseco] Load plugin [chat.stats.php]
+[XAseco] Load plugin [chat.server.php]
+[XAseco] Load plugin [chat.songmod.php]
+[XAseco] Load plugin [chat.me.php]
+[XAseco] Load plugin [plugin.tmxinfo.php]
+[XAseco] Load plugin [plugin.track.php]
+[XAseco] Load plugin [plugin.checkpoints.php]
+[XAseco] Load plugin [plugin.dedimania.php]
+[XAseco] Load plugin [plugin.rasp.php]
+[XAseco] Load plugin [plugin.rasp_jukebox.php]
+[XAseco] Load plugin [plugin.rasp_chat.php]
+[XAseco] Load plugin [plugin.rasp_karma.php]
+[XAseco] Load plugin [plugin.rasp_nextmap.php]
+[XAseco] Load plugin [plugin.rasp_nextrank.php]
+[XAseco] Load plugin [plugin.rasp_votes.php]
+[XAseco] Load plugin [plugin.chatlog.php]
+[XAseco] Load plugin [plugin.style.php]
+[XAseco] Load plugin [plugin.panels.php]
+[XAseco] Load plugin [plugin.uptodate.php]
+[XAseco] Load plugin [jfreu.plugin.php]
+[XAseco] Load plugin [mistral.idlekick.php]
+[09/13,18:15:57] Try to connect to TM dedicated server on 127.0.0.1:5002 timeout 180s
+[09/13,18:16:03] Try to authenticate with login 'SuperAdmin' and password 'Mahlzeit'
+[09/13,18:16:03] Connection established successfully !
+[09/13,18:16:03] [LocalDB] Load config file [localdatabase.xml]
+[09/13,18:16:03] [LocalDB] Try to connect to MySQL server on 'localhost' with database 'xaseco'
+[09/13,18:16:04] [LocalDB] MySQL Server Version is 5.1.44-community
+[09/13,18:16:04] [LocalDB] Checking database structure...
+[09/13,18:16:04] [LocalDB] ...Structure OK!
+[09/13,18:16:04] [RASP] Loading config file [rasp.xml]
+[09/13,18:16:04] [RASP] Checking database structure...
+[09/13,18:16:04] [RASP] ...Structure OK!
+[09/13,18:16:04] [RASP] Cleaning up unused data
+[09/13,18:16:04] Load default style [styles/DarkBlur.xml]
+[09/13,18:16:04] Load default admin panel [panels/AdminBelowChat.xml]
+[09/13,18:16:04] Load default donate panel [panels/DonateBelowCPList.xml]
+[09/13,18:16:04] Load default records panel [panels/RecordsRightBottom.xml]
+[09/13,18:16:04] Load default vote panel [panels/VoteBelowChat.xml]
+[09/13,18:16:04] ************* (Dedimania) *************
+[09/13,18:16:04] * Dataserver connection on Dedimania ...
+[09/13,18:16:04] * Try connection on http://dedimania.net:8002/Dedimania ...
+[09/13,18:16:04] Webaccess (dedimania.net:8002): send: deflate, receive: deflate
+[09/13,18:16:04] * Connection and status ok! (Dedimania.8024)
+[09/13,18:16:04] * NEWS (Dedimania, 08/05): news
+[09/13,18:16:04] ------------- (Dedimania) -------------
+###############################################################################
+  XASECO v1.14 running on 127.0.0.1:5002
+  Name   : Testserver - s100
+  Game   : TmForever United - United - TimeAttack
+  Version: 2.11.26 / 2011-02-21
+  Authors: Florian Schnell & Assembler Maniac
+  Re-Authored: Xymph
+###############################################################################
+Begin Challenge
+[09/13,18:16:05] track changed [none] >> [A01-Race]
+[09/13,18:16:05] currently no record on A01-Race
+End Round
+End Challenge
+[09/13,18:18:56] [RASP] Calculating ranks...
+[09/13,18:18:56] [RASP] ...Done!
+Begin Challenge
+[09/13,18:18:58] track changed [A01-Race] >> [A02-Race]
+[09/13,18:18:58] currently no record on A02-Race
+Begin Round
+End Round
+End Challenge
+[09/13,18:22:04] [RASP] Calculating ranks...
+[09/13,18:22:04] [RASP] ...Done!
+Begin Challenge
+[09/13,18:22:06] track changed [A02-Race] >> [A03-Race]
+[09/13,18:22:06] currently no record on A03-Race
+Begin Round
+End Round
+End Challenge
+[09/13,18:25:12] [RASP] Calculating ranks...
+[09/13,18:25:12] [RASP] ...Done!
+Begin Challenge
+[09/13,18:25:13] track changed [A03-Race] >> [A04-Acrobatic]
+[09/13,18:25:13] currently no record on A04-Acrobatic
+Begin Round
+[XASECO Fatal Error] ExecCallbacks XMLRPC Error [-32300] - transport error - cannot read size/handle on line 994 in file D:\TMSB_4\77 FINAL\SERVER\DedicatedServer\XAseco114\aseco.php

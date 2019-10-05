@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!-- MySQL Server Settings -->
+  <mysql_server>127.0.0.1</mysql_server>
+  <mysql_login>root</mysql_login>
+  <mysql_password>usbw</mysql_password>
+  <mysql_database>maseco</mysql_database>
+  <!-- Do you want Aseco to display the records? -->
+  <display>true</display>
+  <messages>
+    <record_new_pub>{#server}>> {#highlite}{1}{#record} secured his {#highlite}{2}{#record}. place with a time of {#highlite}{3}{#record}!</record_new_pub>
+    <record_new_priv>{#server}>> {#record}You secured your local {#highlite}{1}{#record}. place with a time of {#highlite}{2}{#record}!</record_new_priv>
+    <record_new_rank_pub>{#server}>> {#highlite}{1}{#record} claimed the {#highlite}{2}{#record}. Server Record rank ({#highlite}{3}{#record})!</record_new_rank_pub>
+    <record_new_rank_priv>{#server}>> {#record}You claimed the {#highlite}{1}{#record}. Server Record rank ({#highlite}{2}{#record})!</record_new_rank_priv>
+    <record_first_pub>{#server}>> {#highlite}{1}{#record} took the {#highlite}{2}{#record}. Server Record with a time of {#highlite}{3}{#record}!</record_first_pub>
+    <record_first_priv>{#server}>> {#record}You took the {#highlite}{1}{#record}. Server Record with a time of {#highlite}{2}{#record}!</record_first_priv>
+  </messages>
+</settings>

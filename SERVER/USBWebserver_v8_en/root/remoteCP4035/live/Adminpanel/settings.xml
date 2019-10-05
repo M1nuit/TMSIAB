@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<messages>
+		<next>!hl!$s%s $z%s !hl!$sforced next challenge!</next>
+		<restart>!hl!$s%s $z%s !hl!$srestarts the challenge!</restart>
+		<forceend>!hl!$s%s $z%s !hl!$sforced end of the round!</forceend>
+		<cancelvote>!hl!$s%s $z%s !hl!$scanceled the vote!</cancelvote>
+		<lastmap>!hl!$s%s $z%s !hl!$sforced previous challenge!</lastmap>
+		<warn>!hl!$s%s $z%s !hl!$swarned $z%s !hl!$s!</warn>
+		<kick>!hl!$s%s $z%s !hl!$skicked $z%s !hl!$s!</kick>
+		<ban>!hl!$s%s $z%s !hl!$sbanned $z%s !hl!$s!</ban>
+		<ignore>!hl!$s%s $z%s !hl!$signored $z%s !hl!$s!</ignore>
+		<unignore>!hl!$s%s $z%s !hl!$sunignored $z%s !hl!$s!</unignore>
+	</messages>
+</settings>
